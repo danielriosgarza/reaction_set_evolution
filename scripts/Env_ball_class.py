@@ -33,8 +33,8 @@ class Env_ball:
         
         with open(self.path) as f:
             self.transporters=f.readline().strip().split('\t')
-            self.transporters=[i+'_a' for i in self.transporters]
-            self.metabolites_d={i.split(':')[0]:i.split(':')[1] for i in f.readline().strip().split('\t')}
+            
+            self.metabolites_d={i.split(':')[1]:i.split(':')[0] for i in f.readline().strip().split('\t')}
             self.dict, self.matrix=self.__get_ds(f)
     
     def __get_ds(self, file_object):
@@ -60,8 +60,8 @@ class Env_ball:
         
         '''
         
-        water = self.transporters.index('EX_cpd00001_e_a')
-        oxygen = self.transporters.index('EX_cpd00007_e_a')
+        water = self.transporters.index('EX_cpd00001_e')
+        oxygen = self.transporters.index('EX_cpd00007_e')
         i=np.arange(len(self.transporters))
         mat = self.matrix.T[(i!=water) & (i!=oxygen)].T
         trans = umap.UMAP(n_neighbors=100, random_state=666, n_components=3, min_dist=.1).fit(mat)
