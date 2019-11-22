@@ -16,6 +16,10 @@ import matplotlib.pyplot as plt
 
 
 class Env_ball:
+    '''
+    Environmental ball. Manipulate a predifined uniform random environment.
+    
+    '''
     def __init__(self, number_of_realizations):
         
         
