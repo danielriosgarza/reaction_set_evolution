@@ -48,7 +48,7 @@ class Env_ball:
         d={}
         m=np.zeros((self.rn, len(self.transporters)))
         for line in file_object:
-            v=np.array(map(float, line.strip().split('\t')))
+            v=np.array([i for i in map(float, line.strip().split('\t'))])
             m[counter]=v
             d[counter]=v
             counter+=1
@@ -86,7 +86,7 @@ class Env_ball:
         ax.set_zticklabels("")
     
     def apply_environment(self, mdl, env_vec,transporters):
-        for i in xrange(len(transporters)):
+        for i in range(len(transporters)):
             try:
                 mdl.reactions.get_by_id(transporters[i]).lower_bound=-env_vec[i]
                 mdl.reactions.get_by_id(transporters[i]).upper_bound=1000.
@@ -98,8 +98,8 @@ class Env_ball:
     def get_env_growth_profile(self, mdl_path):
         gv=np.zeros(self.rn)
         mod=cobra.io.read_sbml_model(mdl_path)
-        for i in xrange(self.rn):
-            print i
+        for i in range(self.rn):
+            print (i)
             gv[i] = self.apply_environment(mod, self.matrix[i], self.transporters)
         return gv
         

@@ -13,7 +13,7 @@ import networkx as nx
 from Env_ball_class import Env_ball
 
 def apply_environment(mdl, env_vec,transporters):
-    for i in xrange(len(transporters)):
+    for i in range(len(transporters)):
         try:
             mdl.reactions.get_by_id(transporters[i]).lower_bound=-env_vec[i]
             mdl.reactions.get_by_id(transporters[i]).upper_bound=1000.
@@ -54,6 +54,7 @@ def buid_bipartite_graph(model):
 
 class MFS_run:
     def __init__(self, file_path, file_name):
+        print(file_path, file_name)
         
         self.file_name=file_name
         self.file_path = file_path
@@ -70,23 +71,23 @@ class MFS_run:
         return file_name.split(".")[0].split('_')[-1]
     
     def __parse_run_file(self, file_):
-        f=file(file_)
+        with open(file_) as f:
         
-        reactome = np.array(f.readline().strip().split('\t'))
-        
-        dt=[]
-        sorter = np.argsort(reactome)
-        
-        self.reactome = reactome[sorter]
-        
-        for line in f:
-            a=line.strip().split('\t')
-            d = map(float, a)
-            d=np.array(d)
-            dt.append(d[sorter])
-        self.binary_m = np.array(dt).T
-        
-        self.freq_t = np.sum(self.binary_m, axis=1)/self.binary_m.shape[1]
+            reactome = np.array(f.readline().strip().split('\t'))
+            
+            dt=[]
+            sorter = np.argsort(reactome)
+            
+            self.reactome = reactome[sorter]
+            
+            for line in f:
+                a=line.strip().split('\t')
+                d = [*map(float, a)]
+                d=np.array(d)
+                dt.append(d[sorter])
+            self.binary_m = np.array(dt).T
+            
+            self.freq_t = np.sum(self.binary_m, axis=1)/self.binary_m.shape[1]
     
     
 
@@ -118,6 +119,8 @@ class MFS_family:
         
         self.include_reactome = None
         
+        self.model_reactomes = None
+        
         self.__parse_run_files()
         self.__get_model_reac_freq()
         self.__get_include_reactome()
@@ -141,8 +144,8 @@ class MFS_family:
         self.environments = np.zeros(len(self.files))
         self.freq_m = np.zeros((len(self.files), len(self.reactome)))
         
-        for i in xrange(len(self.files)):
-            print self.files[i]
+        for i in range(len(self.files)):
+            print (self.files[i])
             mfs= MFS_run(self.file_path_fam, self.files[i])
             
             self.environments[i] = float(mfs.environment)
@@ -158,16 +161,31 @@ class MFS_family:
         self.freq_m = self.freq_m[env_sorter] 
     
     def __get_model_reac_freq(self):
-        freq= np.zeros(len(self.reactome))
-        gene_counts = np.zeros(len(self.reactome))
-        for i in self.model_files:
-            mod=cobra.io.read_sbml_model(os.path.join(self.model_path_fam, i))
-            for r in xrange(len(self.reactome)):
+        '''
+        Obtain binary vectors indicating the presence of reactions in specific models.
+        Summarize these vectors by their frequency.
+
+        Returns
+        -------
+        None.
+
+        '''
+        models_n = len(self.model_files)
+        reactions_n = len(self.reactome)
+        
+        v =np.zeros((models_n, reactions_n))
+        freq= np.zeros(reactions_n)
+        gene_counts = np.zeros(reactions_n)
+        for i,name in enumerate(self.model_files):
+            mod=cobra.io.read_sbml_model(os.path.join(self.model_path_fam, name))
+            for r in range(reactions_n):
                 if mod.reactions.has_id(self.reactome[r]):
-                    freq[r]+=(1.0/len(self.model_files))
+                    freq[r]+=(1.0/models_n)
                     gene_counts[r]+=len(mod.reactions.get_by_id(self.reactome[r]).genes)
+                    v[i][r] = 1.0
         self.model_reac_freq=freq
         self.gene_counts = gene_counts
+        self.model_reactomes = v
     
     def __get_include_reactome(self):
         '''
