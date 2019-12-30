@@ -7,40 +7,61 @@ Created on Fri Dec  6 14:53:32 2019
 """
 from pathlib import Path
 import os
+import pickle
+import gc
 
 import scipy.stats as sts
 import scipy.spatial as sps
 import numpy as np
 
 
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import MultiTaskElasticNetCV
-
-
 from parse_MFS_class import MFS_family
 from parse_MFS_class import apply_environment
 from Env_ball_class import Env_ball
-ev =Env_ball(1000)
 
-
-data_folder = os.path.join(Path(__file__).parents[2], 'data')
-
-
-
-def expectation(data, dist=sts.gamma):
-    return dist(*dist.fit(data)).mean()
+#Auxiliary functions
 
 def get_flux_vector(reactions, mdl):
-    c=np.zeros(len(reactions))
+    '''
+    
+
+    Parameters
+    ----------
+    reactions : TYPE list or array
+        ordered list of reactions to obtain the flux from a solved model.
+    mdl : cobra.model
+    function assumes that the model is solved. (use model.optimize())
+
+    Returns
+    -------
+    flux_vector : TYPE
+        A vector containing the flux in the solved model. In the same order as the reaction 
+        list.
+
+    '''
+    flux_vector=np.zeros(len(reactions))
     for i,name in enumerate(reactions):
-        c[i] = mdl.reactions.get_by_id(name).flux
-    return c
+        flux_vector[i] = mdl.reactions.get_by_id(name).flux
+    return flux_vector
+
 
 def one_to_all_distance(inde, matrix, metric='hamming'):
+    '''
+    
+    Returns
+    -------
+    distance of one vector in a matrix to all other vectores in the matrix.
+    '''
     return sps.distance.cdist(matrix[inde].reshape(1,-1),matrix[np.arange(len(matrix))!=inde], metric=metric)
 
 
 def distance_to_neighbour(matrix, metric='hamming'):
+    '''
+    
+    Returns
+    -------
+    distance to closest neigbour
+    '''
     v = np.zeros(len(matrix))
     for i in range(len(matrix)):
         v[i] = min(one_to_all_distance(i, matrix, metric)[0])
@@ -48,6 +69,7 @@ def distance_to_neighbour(matrix, metric='hamming'):
         
 def get_even_distances(matrix, metric='hamming'):
     '''
+    Buld the even_distance matrix (S)
     1) pick a random vector and add to S
     2) define the walking distance
     3) iterate:
@@ -55,18 +77,15 @@ def get_even_distances(matrix, metric='hamming'):
       b) add selected vector to set
       c) repeat until not vectors are left
 
-    Parameters
-    ----------
-    matrix : TYPE
-        DESCRIPTION.
-
     Returns
     -------
-    None.
+    indices of vectors in the matrix that consist of a random sample that 
+    don't violate the min walking distance (redundancy)
 
     '''
     dim = len(matrix)
     selected = [np.random.choice(np.arange(dim))]
+    #redundancy threshold
     threshold = max(distance_to_neighbour(matrix))/5.
     a =1
     while a==1:
@@ -87,266 +106,115 @@ def get_even_distances(matrix, metric='hamming'):
                 selected.append(np.random.choice(k[m.astype(np.bool)]))
     print('done')
     return selected
-            
-        
-#get the mfs data        
-fam_mfs=MFS_family('Acetobacteraceae', data_folder + '/reactomes/all_families/',data_folder + '/models/all_models' )
 
 
-#get the reaction frequency data
-full_freq_m = fam_mfs.freq_m.copy()
-full_freq_m=full_freq_m.T[fam_mfs.include_reactome].T
-av_freq_m = np.mean(full_freq_m, axis=0)
-
-#get the residuals from the reaction frequency
-residualMat = np.zeros(full_freq_m.shape)
-for i in range(1000):
-    reg = sts.linregress(av_freq_m, full_freq_m[i])
-    t = av_freq_m*reg.slope + reg.intercept
-    residualMat[i]=(full_freq_m[i] - t)
-
-
-#get the model reaction frequency
-
-model_sample = np.zeros((1000, len(av_freq_m)))
-
-for i in range(1000):
-    print(i)
-    s1 = get_even_distances(fam_mfs.model_reactomes)
-    mf = np.sum(fam_mfs.model_reactomes[s1], axis=0)/len(s1)
-    model_sample[i] = mf[fam_mfs.include_reactome]
-
-
-#get the environment
-     
-transporter = ev.transporters[:]
-water_index = transporter.index('EX_cpd00001_e')
-transporter.remove('EX_cpd00001_e')
-oxygen_index  =transporter.index('EX_cpd00007_e')
-transporter.remove('EX_cpd00007_e')
-
-transporter=np.array(transporter)
-
-envBall=[]
-environment=[]
-
-mc=fam_mfs.model.copy()
-for i in range(1000):
-    eb = np.delete(ev.matrix[i], water_index, axis=0)
-    eb = np.delete(eb, oxygen_index, axis=0)
-    d=apply_environment(mc,ev.matrix[i] ,ev.transporters)
-    print(d)
-    environment.append(get_flux_vector(transporter,mc))
-    envBall.append(eb)
-
-envBall = np.array(envBall)
-environment = np.array(environment)
-environment = -1*environment
-
-environment = np.clip(environment, 0, 1000)
-
-
-env_sum = np.sum(environment, axis=0)
-env_m1 = np.mean(environment, axis=0)
-
-transporter = transporter[env_sum>0]
-
-environment = environment.T[env_sum>0].T
-
-
-
-
-t1 = np.random.choice(np.arange(1000), 700, replace=0)
-t2 = np.array([i for i in np.arange(1000) if i not in t1])
-########Test1: Elastic Net on reaction frequencies and env ball##############
-
-
-
-training_x = full_freq_m[t1]
-training_y = envBall[t1]
-test_x = full_freq_m[t2]
-test_y = envBall[t2]
-
-regr = MultiTaskElasticNetCV(cv=5, random_state=0,n_jobs=7, verbose=1, max_iter=300)
-regr.fit(training_x, training_y)
-
-predicted_envs = regr.predict(test_x)
-cors_n=np.zeros(len(t2))
-cors=np.zeros(len(t2))
-for i in range(len(t2)):
-    d=np.zeros(100)
-    for z in range(100):
-        d[z] = sts.pearsonr(envBall[np.random.randint(0,300)], predicted_envs[i])[0]
-    cors_n[i]=np.mean(d)
-    cors[i] = sts.pearsonr(envBall[t2[i]], predicted_envs[i])[0]
-stats1 = np.arctanh(cors)
-stats2 = np.arctanh(cors_n)
-print(sts.ttest_rel(stats1,stats2))
-
-
-
-#########test2: Elastic Net on residuals and env ball #####################
-
-
-training_x = residualMat[t1]
-training_y = envBall[t1]
-test_x = residualMat[t2]
-test_y = envBall[t2]
-
-regr = MultiTaskElasticNetCV(cv=5, random_state=0,n_jobs=7, verbose=1, max_iter=300)
-regr.fit(training_x, training_y)
-
-predicted_envs = regr.predict(test_x)
-cors_n=np.zeros(len(t2))
-cors=np.zeros(len(t2))
-for i in range(len(t2)):
-    d=np.zeros(100)
-    for z in range(100):
-        d[z] = sts.pearsonr(envBall[np.random.randint(0,300)], predicted_envs[i])[0]
-    cors_n[i]=np.mean(d)
-    cors[i] = sts.pearsonr(envBall[t2[i]], predicted_envs[i])[0]
-stats1 = np.arctanh(cors)
-stats2 = np.arctanh(cors_n)
-print('Elastic Net on residuals and env ball')
-print(sts.ttest_rel(stats1,stats2))
-plot(cors_n, color='b');plot(cors, color='r')
-show()
-
-#########test3: Elastic Net on freqMat and consumedmets #####################
-
-
-training_x = full_freq_m[t1]
-training_y = environment[t1]
-test_x = full_freq_m[t2]
-test_y = environment[t2]
-
-regr = MultiTaskElasticNetCV(cv=5, random_state=0,n_jobs=7, verbose=1, max_iter=300)
-regr.fit(training_x, training_y)
-
-predicted_envs = regr.predict(test_x)
-cors_n=np.zeros(len(t2))
-cors=np.zeros(len(t2))
-for i in range(len(t2)):
-    d=np.zeros(100)
-    for z in range(100):
-        d[z] = sts.pearsonr(environment[np.random.randint(0,300)], predicted_envs[i])[0]
-    cors_n[i]=np.mean(d)
-    cors[i] = sts.pearsonr(environment[t2[i]], predicted_envs[i])[0]
-stats1 = np.arctanh(cors)
-stats2 = np.arctanh(cors_n)
-print('Elastic Net on freqMat and consumedmets')
-print(sts.ttest_rel(stats1,stats2))
-plot(cors_n, color='b');plot(cors, color='r')
-show()
-
-#########test4: Elastic Net on residual and consumedmets #####################
-
-
-training_x = residualMat[t1]
-training_y = environment[t1]
-test_x = residualMat[t2]
-test_y = environment[t2]
-
-regr = MultiTaskElasticNetCV(cv=5, random_state=0,n_jobs=7, verbose=1, max_iter=300)
-regr.fit(training_x, training_y)
-
-predicted_envs = regr.predict(test_x)
-cors_n=np.zeros(len(t2))
-cors=np.zeros(len(t2))
-for i in range(len(t2)):
-    d=np.zeros(100)
-    for z in range(100):
-        d[z] = sts.pearsonr(environment[np.random.randint(0,300)], predicted_envs[i])[0]
-    cors_n[i]=np.mean(d)
-    cors[i] = sts.pearsonr(environment[t2[i]], predicted_envs[i])[0]
-stats1 = np.arctanh(cors)
-stats2 = np.arctanh(cors_n)
-print('Elastic Net on residual and consumedmets')
-print(sts.ttest_rel(stats1,stats2))
-
-plot(cors_n, color='b');plot(cors, color='r')
-show()
-
-
-
-
-
-stats = []
-
-for i in np.arange(start=3, stop=150):
-    from sklearn.decomposition import PCA
-    pca=PCA(n_components=i)
-
+def get_growth_env(model_template, model, reactome, mfs_profile, transporters):
+    '''
+    obtain the flux of metabolites used during growth of an irreducible set
+    on a specific environmte. Inputs are the ensemble model and binary vector
+    containig reactions that are part of the irreducible set.
     
-    pc_env = pca.fit_transform(environment)
+    Returns
+    -------
+    numpy array containing the flux in the same order as the 'transporters'.
+    This arry is divided by its max.
+    '''
+    
+    #model_template is added to retain information about reversibility
+    
+    #turn reactions on or off the reactions
     
     
-    t1 = np.random.choice(np.arange(1000), 700, replace=0)
-    t2 = np.array([i for i in np.arange(1000) if i not in t1])
+    for i,name in enumerate(reactome):
+        if mfs_profile[i]==0:
+            model.reactions.get_by_id(name).upper_bound=0
+            model.reactions.get_by_id(name).lower_bound=0
+        else:
+            if model_template.reactions.get_by_id(name).reversibility:
+                model.reactions.get_by_id(name).upper_bound=1000
+                model.reactions.get_by_id(name).lower_bound=-1000
+            else:
+                model.reactions.get_by_id(name).upper_bound=1000
+                model.reactions.get_by_id(name).lower_bound=0
+    #
+    sol=model.slim_optimize()
+    
+    env_vec = get_flux_vector(transporters, model)
+    env_vec = -1*env_vec
+    env_vec = np.clip(env_vec, 0,1000)
+    env_vec = env_vec/sol
+    return env_vec/max(env_vec)
+
+def get_environment_sample(model, env_vector, env_transporters, reactome, mfs_matrix, interest_transporters, sample_size):
+    '''
+    
+    Returns
+    -------
+    the mean flux from the import of environmental metabolites from a random sample
+    of irreducible sets of reactions. 
+    '''
+    v = np.zeros((sample_size, len(interest_transporters)))
+    mc = model.copy()
+    _=apply_environment(mc, env_vector, env_transporters)
+    
+    for ii,i in enumerate(np.random.choice(np.arange(len(mfs_matrix)), size=sample_size)):
+        v[ii] = get_growth_env(model, mc, reactome, mfs_matrix[ii], interest_transporters)
+    
+    return np.mean(v,axis=0)
+
+def main(family):
+    #reference from the git script
+    data_folder = os.path.join(Path(os.getcwd()).parents[1], 'data')
+    
+    #obtain all data from the irreducible set
+    fam_mfs=MFS_family(family, data_folder + '/reactomes/all_families/',data_folder + '/models/all_models' )
+    
+    #####get reaction frequency######
+    full_freq_m = fam_mfs.freq_m.copy()
+    
+    #only reactions that should be included in the analysis
+    full_freq_m=full_freq_m.T[fam_mfs.include_reactome].T
+    av_freq_m = np.mean(full_freq_m, axis=0)
+    
+    #######get_model_frequency########
+    
+    #get the model reaction frequency
+    
+    model_sample = np.zeros((1000, len(av_freq_m)))
+    
+    for i in range(1000):
+        print(i)
+        s1 = get_even_distances(fam_mfs.model_reactomes)
+        mf = np.sum(fam_mfs.model_reactomes[s1], axis=0)/len(s1)
+        model_sample[i] = mf[fam_mfs.include_reactome]
+    
+    ###get_environment#####
+    ev =Env_ball(1000)
+         
+    transporter = ev.transporters[:]
+    #water_index = transporter.index('EX_cpd00001_e')
+    transporter.remove('EX_cpd00001_e')
+    #oxygen_index  =transporter.index('EX_cpd00007_e')
+    transporter.remove('EX_cpd00007_e')
+    
+    #external metabolites. Water and Oxygen are excluded
+    transporter=np.array(transporter)
+    
+       
     
     
-    training_x = residualMat[t1]
-    training_y = pc_env[t1]
+    mc = fam_mfs.model.copy()
     
-    test_x = residualMat[t2]
-    test_y = pc_env[t2]
+    used_environment = np.zeros((1000, 290))
     
-    regr = MultiTaskElasticNetCV(cv=5, random_state=0,n_jobs=7, verbose=1, max_iter=300)
-    regr.fit(training_x, training_y)
+    for i in range(1000):
+        gc.collect()
+        v = fam_mfs.mfs[str(i)][fam_mfs.include_reactome].T
+        used_environment[i] = get_environment_sample(mc, ev.matrix[i], ev.transporters, fam_mfs.reactome[fam_mfs.include_reactome], v, transporter,200)
+        print(i)  
     
-    
-    predicted_envs = regr.predict(test_x)
-    cors_n=np.zeros(len(t2))
-    cors=np.zeros(len(t2))
-    for i in range(len(t2)):
-        d=np.zeros(100)
-        for z in range(100):
-             d[z] = sts.pearsonr(pc_env[np.random.randint(0,300)], predicted_envs[i])[0]
-        cors_n[i]=np.mean(d)
-        cors[i] = sts.pearsonr(pc_env[t2[i]], predicted_envs[i])[0]
-    t1 = np.arctanh(cors)
-    t2 = np.arctanh(cors_n)
-    stats.append(sts.ttest_rel(t1,t2))
-    print(stats)
-    
+    store = {'used_env':used_environment.copy(), 'model_sample':model_sample.copy(), 'full_freq_m':full_freq_m.copy()}
+    pickle.dump(store, open(data_folder + '/' + family + '.pkl', 'wb'))
 
-#regr.coef_
-#os.system('say "your program has finished"')
-
-pca=PCA(whiten=1, n_components=2)
-pc_reac = pca.fit_transform(environment)
-
-t1 = np.random.choice(np.arange(1000), 700, replace=0)
-t2 = np.array([i for i in np.arange(1000) if i not in t1])
-training_x = pc_reac[t1]
-training_y = residualMat[t1]
-test_x = pc_reac[t2]
-test_y = residualMat[t2]
-
-regr = MultiTaskElasticNetCV(cv=5, random_state=0,n_jobs=7, verbose=1, max_iter=300)
-regr.fit(training_x, training_y)
-
-predicted_envs = regr.predict(test_x)
-cors_n=np.zeros(len(t2))
-cors=np.zeros(len(t2))
-for i in range(len(t2)):
-    d=np.zeros(100)
-    for z in range(100):
-        d[z] = sts.pearsonr(residualMat[np.random.randint(0,300)], predicted_envs[i])[0]
-        cors_n[i]=np.mean(d)
-        cors[i] = sts.pearsonr(residualMat[t2[i]], predicted_envs[i])[0]
-stats1 = np.arctanh(cors)
-stats2 = np.arctanh(cors_n)
-print(sts.ttest_rel(stats1,stats2))
-
-
-from sklearn import linear_model
-reg = linear_model.BayesianRidge()
-t1 = np.random.choice(np.arange(1000), 700, replace=0)
-t2 = np.array([i for i in np.arange(1000) if i not in t1])
-
-training_x = residualMat[t1]
-training_y = environment[t1]
-test_x = residualMat[t2]
-test_y = environment[t2]
-regr.fit(training_x, training_y)
+import sys
+main(sys.argv[1])

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="r0001">
+  <data key="d0">reaction</data>
+</node>
+<node id="r0002">
+  <data key="d0">reaction</data>
+</node>
+<node id="r0003">
+  <data key="d0">reaction</data>
+</node>
+<node id="r0004">
+  <data key="d0">reaction</data>
+</node>
+<node id="r0006">
+  <data key="d0">reaction</data>
+</node>
+<node id="r0007">
+  <data key="d0">reaction</data>
+</node>
+<node id="r0008">
+  <data key="d0">reaction</data>
+</node>
+<node id="r0010">
+  <data key="d0">reaction</data>
+</node>
+<node id="EX_m0001">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_m0002">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_m0003">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_m0004">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_m0006">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_m0007">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_m0008">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_m0009">
+  <data key="d0">metabolite</data>
+</node>
+<edge source="r0001" target="EX_m0001" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0001" target="EX_m0002" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0002" target="EX_m0001" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0002" target="EX_m0002" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0003" target="EX_m0003" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0003" target="EX_m0004" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0004" target="EX_m0003" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0004" target="EX_m0004" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0006" target="EX_m0006" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0006" target="EX_m0007" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0006" target="EX_m0008" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0006" target="EX_m0009" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0007" target="EX_m0008" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0007" target="EX_m0009" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0008" target="EX_m0008" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0008" target="EX_m0009" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0010" target="EX_m0001" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0010" target="EX_m0002" id="0">
+  <data key="d1">negative</data>
+</edge>
+</graph></graphml>

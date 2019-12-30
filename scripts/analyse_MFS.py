@@ -24,8 +24,8 @@ def assign_to_class(vector, sig_level=0.05, mt=False):
     1: reaction is significantly more frequent in this environment
     
     '''
-    
-    z_norm_deviate =(vector-np.mean(vector))/np.std(vector)
+    SE = np.std(vector)#/np.sqrt(len(vector))
+    z_norm_deviate =(vector-np.mean(vector))/SE
     
     sign = z_norm_deviate/np.abs(z_norm_deviate)
     
@@ -185,4 +185,37 @@ av_mod_diff = np.mean(mod_diff, axis=0)
 av_mod_diff = np.arctanh(av_mod_diff)
 
 
-mod_class = assign_to_class(av_mod_diff, sig_level=0.05)
+mod_class = assign_to_class(av_mod_diff)
+
+enriched_reactions=[]
+depleted_reactions = []
+p_met_drivers=[]
+n_met_drivers=[]
+
+
+for i,t in enumerate(mod_class[s_clss_fm!=0]):
+    if t==-1:
+        depleted_reactions.append(envd_reactions[i])
+        
+for i,t in enumerate(mod_class[s_clss_fm!=0]):
+    if t==1:
+        enriched_reactions.append(envd_reactions[i])
+
+        
+for i in enriched_reactions:
+    k = association_d[i].copy()
+    l1 = list(dm[k==1])
+    l2 = list(dm[k==-1])
+    p_met_drivers+=l1
+    n_met_drivers+=l2
+    
+for i in depleted_reactions:
+    k = association_d[i].copy()
+    l1 = list(dm[k==1])
+    l2 = list(dm[k==-1])
+    n_met_drivers+=l1
+    p_met_drivers+=l2
+p_met_drivers=list(set(p_met_drivers))
+p_met_drivers.sort()
+n_met_drivers=list(set(n_met_drivers))
+n_met_drivers.sort()

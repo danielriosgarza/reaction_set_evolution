@@ -136,9 +136,6 @@
 <node id="rxn00175_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn00178_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn00182_c">
   <data key="d0">reaction</data>
 </node>
@@ -1784,163 +1781,163 @@
   <data key="d0">reaction</data>
 </node>
 <node id="EX_cpd00367_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00179_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd11588_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd11580_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00235_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00073_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00046_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00018_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00041_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00156_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00550_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00080_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00132_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00100_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00051_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00089_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd11640_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd11583_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00075_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00516_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd01080_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00126_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00011_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00130_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00023_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00159_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00067_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00039_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00186_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00035_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd15605_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00091_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00106_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd15560_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00024_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00064_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00107_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00033_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00054_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00322_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00161_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd11589_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00298_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00038_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00066_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00053_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00588_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00129_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00421_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00045_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00027_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd15604_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00216_e">
-  <data key="d0">metabolites</data>
+  <data key="d0">metabolite</data>
 </node>
 <edge source="rxn00010_c" target="EX_cpd11640_e" id="0">
   <data key="d1">positive</data>
@@ -1986,6 +1983,9 @@
 </edge>
 <edge source="rxn00085_c" target="EX_cpd00023_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn00085_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00086_c" target="EX_cpd00588_e" id="0">
   <data key="d1">positive</data>
@@ -2085,9 +2085,6 @@
 </edge>
 <edge source="rxn00175_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00178_c" target="EX_cpd11583_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00182_c" target="EX_cpd00075_e" id="0">
   <data key="d1">negative</data>
@@ -2265,9 +2262,6 @@
 </edge>
 <edge source="rxn00465_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn00465_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00465_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
@@ -2611,9 +2605,6 @@
 <edge source="rxn00802_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00802_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00802_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
 </edge>
@@ -2772,9 +2763,6 @@
 </edge>
 <edge source="rxn01019_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn01019_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn01019_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
@@ -2941,9 +2929,6 @@
 <edge source="rxn01434_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01434_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn01434_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
 </edge>
@@ -3089,9 +3074,6 @@
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01985_c" target="EX_cpd00322_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn02005_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn02160_c" target="EX_cpd00235_e" id="0">
@@ -3313,8 +3295,8 @@
 <edge source="rxn03194_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn03236_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn03236_c" target="EX_cpd00046_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn03241_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
@@ -3388,8 +3370,8 @@
 <edge source="rxn04954_c" target="EX_cpd00179_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn04989_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn04989_c" target="EX_cpd00046_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn04996_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
@@ -3429,9 +3411,6 @@
 </edge>
 <edge source="rxn05154_c" target="EX_cpd00073_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn05154_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05154_c" target="EX_cpd00064_e" id="0">
   <data key="d1">negative</data>
@@ -3733,7 +3712,7 @@
 <edge source="rxn05557_c" target="EX_cpd00588_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05560_c" target="EX_cpd00080_e" id="0">
+<edge source="rxn05560_c" target="EX_cpd00033_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05564_c" target="EX_cpd00080_e" id="0">
@@ -3988,8 +3967,8 @@
 <edge source="rxn10042_c" target="EX_cpd01080_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn10043_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn10043_c" target="EX_cpd00018_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn10060_c" target="EX_cpd11588_e" id="0">
   <data key="d1">negative</data>
