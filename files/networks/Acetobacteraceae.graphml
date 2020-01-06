@@ -133,9 +133,6 @@
 <node id="rxn00173_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn00175_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn00182_c">
   <data key="d0">reaction</data>
 </node>
@@ -193,7 +190,7 @@
 <node id="rxn00265_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn00269_c">
+<node id="rxn00272_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00278_c">
@@ -286,9 +283,6 @@
 <node id="rxn00423_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn00433_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn00438_c">
   <data key="d0">reaction</data>
 </node>
@@ -310,6 +304,9 @@
 <node id="rxn00474_c">
   <data key="d0">reaction</data>
 </node>
+<node id="rxn00490_c">
+  <data key="d0">reaction</data>
+</node>
 <node id="rxn00493_c">
   <data key="d0">reaction</data>
 </node>
@@ -326,9 +323,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00506_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn00512_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00515_c">
@@ -356,9 +350,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00544_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn00545_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00547_c">
@@ -413,9 +404,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00623_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn00627_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00646_c">
@@ -499,9 +487,6 @@
 <node id="rxn00770_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn00771_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn00772_c">
   <data key="d0">reaction</data>
 </node>
@@ -544,9 +529,6 @@
 <node id="rxn00832_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn00834_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn00836_c">
   <data key="d0">reaction</data>
 </node>
@@ -569,9 +551,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00904_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn00907_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00908_c">
@@ -599,9 +578,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00935_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn00938_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn00950_c">
@@ -641,9 +617,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01044_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn01048_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01069_c">
@@ -688,6 +661,9 @@
 <node id="rxn01200_c">
   <data key="d0">reaction</data>
 </node>
+<node id="rxn01204_c">
+  <data key="d0">reaction</data>
+</node>
 <node id="rxn01208_c">
   <data key="d0">reaction</data>
 </node>
@@ -713,6 +689,9 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01258_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01270_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01275_c">
@@ -758,12 +737,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01353_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn01358_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn01366_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01368_c">
@@ -827,9 +800,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01603_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn01629_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn01643_c">
@@ -910,19 +880,10 @@
 <node id="rxn02331_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn02380_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn02402_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn02404_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn02456_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn02458_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn02473_c">
@@ -1054,22 +1015,13 @@
 <node id="rxn04082_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn04113_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn04153_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn04154_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn04158_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn04413_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn04705_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn04954_c">
@@ -1100,6 +1052,9 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05151_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05152_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05153_c">
@@ -1147,9 +1102,6 @@
 <node id="rxn05176_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn05177_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn05179_c">
   <data key="d0">reaction</data>
 </node>
@@ -1171,9 +1123,6 @@
 <node id="rxn05202_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn05205_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn05206_c">
   <data key="d0">reaction</data>
 </node>
@@ -1187,9 +1136,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05226_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn05231_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05232_c">
@@ -1264,9 +1210,6 @@
 <node id="rxn05378_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn05382_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn05387_c">
   <data key="d0">reaction</data>
 </node>
@@ -1298,9 +1241,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05437_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn05438_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05439_c">
@@ -1360,6 +1300,9 @@
 <node id="rxn05538_c">
   <data key="d0">reaction</data>
 </node>
+<node id="rxn05539_c">
+  <data key="d0">reaction</data>
+</node>
 <node id="rxn05540_c">
   <data key="d0">reaction</data>
 </node>
@@ -1394,9 +1337,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05561_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn05564_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn05565_c">
@@ -1507,16 +1447,10 @@
 <node id="rxn06586_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn06591_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn06777_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn06874_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn06937_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn07432_c">
@@ -1570,9 +1504,6 @@
 <node id="rxn08655_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn08657_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn08801_c">
   <data key="d0">reaction</data>
 </node>
@@ -1580,9 +1511,6 @@
   <data key="d0">reaction</data>
 </node>
 <node id="rxn08901_c">
-  <data key="d0">reaction</data>
-</node>
-<node id="rxn08971_c">
   <data key="d0">reaction</data>
 </node>
 <node id="rxn09240_c">
@@ -1696,9 +1624,6 @@
 <node id="rxn11941_c">
   <data key="d0">reaction</data>
 </node>
-<node id="rxn11942_c">
-  <data key="d0">reaction</data>
-</node>
 <node id="rxn11944_c">
   <data key="d0">reaction</data>
 </node>
@@ -1786,10 +1711,10 @@
 <node id="EX_cpd00179_e">
   <data key="d0">metabolite</data>
 </node>
-<node id="EX_cpd11588_e">
+<node id="EX_cpd11580_e">
   <data key="d0">metabolite</data>
 </node>
-<node id="EX_cpd11580_e">
+<node id="EX_cpd00117_e">
   <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00235_e">
@@ -1834,9 +1759,6 @@
 <node id="EX_cpd11583_e">
   <data key="d0">metabolite</data>
 </node>
-<node id="EX_cpd00075_e">
-  <data key="d0">metabolite</data>
-</node>
 <node id="EX_cpd00516_e">
   <data key="d0">metabolite</data>
 </node>
@@ -1879,13 +1801,13 @@
 <node id="EX_cpd00106_e">
   <data key="d0">metabolite</data>
 </node>
-<node id="EX_cpd15560_e">
-  <data key="d0">metabolite</data>
-</node>
 <node id="EX_cpd00024_e">
   <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00064_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00105_e">
   <data key="d0">metabolite</data>
 </node>
 <node id="EX_cpd00107_e">
@@ -1936,11 +1858,14 @@
 <node id="EX_cpd15604_e">
   <data key="d0">metabolite</data>
 </node>
-<node id="EX_cpd00216_e">
-  <data key="d0">metabolite</data>
-</node>
-<edge source="rxn00010_c" target="EX_cpd11640_e" id="0">
+<edge source="rxn00001_c" target="EX_cpd00132_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn00010_c" target="EX_cpd00091_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00010_c" target="EX_cpd00054_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00011_c" target="EX_cpd00156_e" id="0">
   <data key="d1">negative</data>
@@ -1948,70 +1873,43 @@
 <edge source="rxn00011_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00018_c" target="EX_cpd00080_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00018_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00022_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00029_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00048_c" target="EX_cpd00156_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00056_c" target="EX_cpd00038_e" id="0">
+<edge source="rxn00056_c" target="EX_cpd00298_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00058_c" target="EX_cpd00179_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00060_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00077_c" target="EX_cpd00126_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00083_c" target="EX_cpd11588_e" id="0">
+<edge source="rxn00083_c" target="EX_cpd00080_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00083_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn00083_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00085_c" target="EX_cpd00367_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00085_c" target="EX_cpd00023_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00085_c" target="EX_cpd00053_e" id="0">
+<edge source="rxn00086_c" target="EX_cpd00161_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00086_c" target="EX_cpd00588_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00102_c" target="EX_cpd00126_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00105_c" target="EX_cpd00186_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00113_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00113_c" target="EX_cpd00053_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00114_c" target="EX_cpd01080_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00114_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00117_c" target="EX_cpd15560_e" id="0">
+<edge source="rxn00117_c" target="EX_cpd00089_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00119_c" target="EX_cpd00298_e" id="0">
+<edge source="rxn00119_c" target="EX_cpd00041_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00130_c" target="EX_cpd00018_e" id="0">
@@ -2029,70 +1927,49 @@
 <edge source="rxn00137_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00139_c" target="EX_cpd00033_e" id="0">
+<edge source="rxn00139_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00141_c" target="EX_cpd00046_e" id="0">
+<edge source="rxn00139_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn00145_c" target="EX_cpd00186_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00147_c" target="EX_cpd00421_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00148_c" target="EX_cpd00035_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00151_c" target="EX_cpd11588_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00157_c" target="EX_cpd00053_e" id="0">
+<edge source="rxn00151_c" target="EX_cpd00550_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00159_c" target="EX_cpd00588_e" id="0">
+<edge source="rxn00151_c" target="EX_cpd00588_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00159_c" target="EX_cpd00235_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00159_c" target="EX_cpd00130_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00161_c" target="EX_cpd00011_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00162_c" target="EX_cpd00023_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00162_c" target="EX_cpd00027_e" id="0">
+<edge source="rxn00162_c" target="EX_cpd00161_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn00165_c" target="EX_cpd15560_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00165_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00166_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00168_c" target="EX_cpd00011_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00168_c" target="EX_cpd00053_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00171_c" target="EX_cpd00298_e" id="0">
+<edge source="rxn00168_c" target="EX_cpd00186_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00173_c" target="EX_cpd15560_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00175_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00175_c" target="EX_cpd00053_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00182_c" target="EX_cpd00075_e" id="0">
+<edge source="rxn00182_c" target="EX_cpd00132_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00184_c" target="EX_cpd00179_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00184_c" target="EX_cpd00075_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00187_c" target="EX_cpd00023_e" id="0">
@@ -2101,44 +1978,47 @@
 <edge source="rxn00189_c" target="EX_cpd00159_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00189_c" target="EX_cpd00038_e" id="0">
+<edge source="rxn00193_c" target="EX_cpd00035_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00213_c" target="EX_cpd00159_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00213_c" target="EX_cpd00126_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn00213_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00214_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00214_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00216_c" target="EX_cpd00107_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00230_c" target="EX_cpd01080_e" id="0">
+<edge source="rxn00225_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00230_c" target="EX_cpd00161_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00237_c" target="EX_cpd00367_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00239_c" target="EX_cpd00107_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00239_c" target="EX_cpd00588_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn00247_c" target="EX_cpd00091_e" id="0">
+  <data key="d1">negative</data>
 </edge>
-<edge source="rxn00247_c" target="EX_cpd00051_e" id="0">
+<edge source="rxn00247_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00251_c" target="EX_cpd00550_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00257_c" target="EX_cpd00075_e" id="0">
+<edge source="rxn00257_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00258_c" target="EX_cpd00024_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn00260_c" target="EX_cpd11588_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00260_c" target="EX_cpd00041_e" id="0">
   <data key="d1">negative</data>
@@ -2146,23 +2026,14 @@
 <edge source="rxn00265_c" target="EX_cpd00186_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00269_c" target="EX_cpd00235_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00283_c" target="EX_cpd00159_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00283_c" target="EX_cpd00035_e" id="0">
+<edge source="rxn00265_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00285_c" target="EX_cpd01080_e" id="0">
+<edge source="rxn00272_c" target="EX_cpd00018_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00285_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn00283_c" target="EX_cpd00117_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00293_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00299_c" target="EX_cpd00035_e" id="0">
   <data key="d1">positive</data>
@@ -2176,16 +2047,13 @@
 <edge source="rxn00324_c" target="EX_cpd00106_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00324_c" target="EX_cpd00053_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00330_c" target="EX_cpd00130_e" id="0">
+<edge source="rxn00330_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00330_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00337_c" target="EX_cpd00023_e" id="0">
+<edge source="rxn00337_c" target="EX_cpd00035_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00342_c" target="EX_cpd00132_e" id="0">
@@ -2200,19 +2068,19 @@
 <edge source="rxn00355_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00355_c" target="EX_cpd00054_e" id="0">
+<edge source="rxn00365_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00364_c" target="EX_cpd00045_e" id="0">
+<edge source="rxn00365_c" target="EX_cpd00033_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00365_c" target="EX_cpd00100_e" id="0">
+<edge source="rxn00368_c" target="EX_cpd00516_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00368_c" target="EX_cpd00053_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00369_c" target="EX_cpd00186_e" id="0">
+<edge source="rxn00369_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00375_c" target="EX_cpd00080_e" id="0">
@@ -2224,17 +2092,11 @@
 <edge source="rxn00394_c" target="EX_cpd00051_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00394_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00407_c" target="EX_cpd00100_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00409_c" target="EX_cpd00045_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00412_c" target="EX_cpd00298_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00416_c" target="EX_cpd00132_e" id="0">
   <data key="d1">negative</data>
@@ -2245,28 +2107,13 @@
 <edge source="rxn00420_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00420_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00422_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00423_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00433_c" target="EX_cpd00080_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00433_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00465_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00465_c" target="EX_cpd00064_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00470_c" target="EX_cpd01080_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00470_c" target="EX_cpd00053_e" id="0">
@@ -2278,11 +2125,14 @@
 <edge source="rxn00471_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00474_c" target="EX_cpd00041_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00474_c" target="EX_cpd00516_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn00490_c" target="EX_cpd15605_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00490_c" target="EX_cpd00066_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00493_c" target="EX_cpd15605_e" id="0">
   <data key="d1">positive</data>
@@ -2290,10 +2140,10 @@
 <edge source="rxn00493_c" target="EX_cpd00066_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00493_c" target="EX_cpd00216_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00499_c" target="EX_cpd11589_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00500_c" target="EX_cpd00235_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00500_c" target="EX_cpd00130_e" id="0">
@@ -2314,14 +2164,17 @@
 <edge source="rxn00506_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00512_c" target="EX_cpd00080_e" id="0">
+<edge source="rxn00515_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00512_c" target="EX_cpd00161_e" id="0">
+<edge source="rxn00519_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00519_c" target="EX_cpd00367_e" id="0">
+<edge source="rxn00519_c" target="EX_cpd01080_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn00527_c" target="EX_cpd00046_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00527_c" target="EX_cpd00041_e" id="0">
   <data key="d1">positive</data>
@@ -2329,10 +2182,7 @@
 <edge source="rxn00532_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00533_c" target="EX_cpd00132_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00533_c" target="EX_cpd00035_e" id="0">
+<edge source="rxn00533_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00539_c" target="EX_cpd00100_e" id="0">
@@ -2341,32 +2191,11 @@
 <edge source="rxn00542_c" target="EX_cpd00091_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00542_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00544_c" target="EX_cpd00156_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00544_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00545_c" target="EX_cpd00132_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00545_c" target="EX_cpd00023_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00545_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00547_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00548_c" target="EX_cpd00053_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00552_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00552_c" target="EX_cpd00298_e" id="0">
   <data key="d1">negative</data>
@@ -2374,8 +2203,8 @@
 <edge source="rxn00555_c" target="EX_cpd00045_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00558_c" target="EX_cpd00011_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn00558_c" target="EX_cpd00035_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00559_c" target="EX_cpd00235_e" id="0">
   <data key="d1">positive</data>
@@ -2404,17 +2233,8 @@
 <edge source="rxn00599_c" target="EX_cpd00106_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00599_c" target="EX_cpd00033_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00607_c" target="EX_cpd00132_e" id="0">
+<edge source="rxn00607_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn00607_c" target="EX_cpd11640_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00607_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00611_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
@@ -2422,34 +2242,25 @@
 <edge source="rxn00616_c" target="EX_cpd00080_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00621_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00621_c" target="EX_cpd00107_e" id="0">
+<edge source="rxn00621_c" target="EX_cpd00035_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00623_c" target="EX_cpd00550_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00627_c" target="EX_cpd00023_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00646_c" target="EX_cpd00159_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00649_c" target="EX_cpd00023_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00649_c" target="EX_cpd00039_e" id="0">
+<edge source="rxn00649_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00650_c" target="EX_cpd00126_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00656_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn00657_c" target="EX_cpd11640_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00657_c" target="EX_cpd11588_e" id="0">
+<edge source="rxn00657_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00676_c" target="EX_cpd00073_e" id="0">
@@ -2458,16 +2269,13 @@
 <edge source="rxn00686_c" target="EX_cpd00235_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00690_c" target="EX_cpd00035_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00690_c" target="EX_cpd00588_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00692_c" target="EX_cpd00588_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00693_c" target="EX_cpd00588_e" id="0">
+<edge source="rxn00693_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00704_c" target="EX_cpd00179_e" id="0">
@@ -2479,8 +2287,8 @@
 <edge source="rxn00705_c" target="EX_cpd00089_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00707_c" target="EX_cpd00159_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn00707_c" target="EX_cpd00367_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00707_c" target="EX_cpd00024_e" id="0">
   <data key="d1">negative</data>
@@ -2494,9 +2302,6 @@
 <edge source="rxn00711_c" target="EX_cpd00091_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00713_c" target="EX_cpd00091_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00713_c" target="EX_cpd00045_e" id="0">
   <data key="d1">positive</data>
 </edge>
@@ -2505,9 +2310,6 @@
 </edge>
 <edge source="rxn00717_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00726_c" target="EX_cpd00041_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00726_c" target="EX_cpd00516_e" id="0">
   <data key="d1">positive</data>
@@ -2524,29 +2326,20 @@
 <edge source="rxn00742_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00742_c" target="EX_cpd00053_e" id="0">
+<edge source="rxn00744_c" target="EX_cpd00161_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00744_c" target="EX_cpd00106_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn00744_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
 </edge>
-<edge source="rxn00747_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00747_c" target="EX_cpd00129_e" id="0">
+<edge source="rxn00747_c" target="EX_cpd00117_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00748_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00748_c" target="EX_cpd00053_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00762_c" target="EX_cpd00024_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn00763_c" target="EX_cpd00322_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn00763_c" target="EX_cpd00421_e" id="0">
   <data key="d1">negative</data>
@@ -2554,31 +2347,19 @@
 <edge source="rxn00770_c" target="EX_cpd11580_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00771_c" target="EX_cpd00156_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00771_c" target="EX_cpd00421_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn00770_c" target="EX_cpd00105_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00772_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00778_c" target="EX_cpd11588_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00780_c" target="EX_cpd01080_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00780_c" target="EX_cpd00035_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00785_c" target="EX_cpd00089_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00785_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00785_c" target="EX_cpd00298_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00786_c" target="EX_cpd00161_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00786_c" target="EX_cpd00027_e" id="0">
@@ -2593,13 +2374,16 @@
 <edge source="rxn00791_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00791_c" target="EX_cpd00041_e" id="0">
+<edge source="rxn00791_c" target="EX_cpd00516_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00798_c" target="EX_cpd00075_e" id="0">
+<edge source="rxn00791_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00799_c" target="EX_cpd00186_e" id="0">
+<edge source="rxn00798_c" target="EX_cpd00046_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00799_c" target="EX_cpd00117_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00802_c" target="EX_cpd00073_e" id="0">
@@ -2608,16 +2392,10 @@
 <edge source="rxn00802_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00806_c" target="EX_cpd00107_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00808_c" target="EX_cpd00046_e" id="0">
+<edge source="rxn00806_c" target="EX_cpd00018_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00808_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00816_c" target="EX_cpd00080_e" id="0">
+<edge source="rxn00808_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00816_c" target="EX_cpd00053_e" id="0">
@@ -2630,9 +2408,6 @@
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00832_c" target="EX_cpd00186_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00834_c" target="EX_cpd00038_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00836_c" target="EX_cpd00161_e" id="0">
@@ -2665,16 +2440,7 @@
 <edge source="rxn00904_c" target="EX_cpd00156_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00907_c" target="EX_cpd01080_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00907_c" target="EX_cpd00298_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn00908_c" target="EX_cpd00126_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00908_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00910_c" target="EX_cpd00550_e" id="0">
@@ -2686,13 +2452,13 @@
 <edge source="rxn00913_c" target="EX_cpd11580_e" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="rxn00913_c" target="EX_cpd00105_e" id="0">
+  <data key="d1">negative</data>
+</edge>
 <edge source="rxn00915_c" target="EX_cpd00038_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00917_c" target="EX_cpd00038_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00929_c" target="EX_cpd00011_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn00929_c" target="EX_cpd00129_e" id="0">
@@ -2704,40 +2470,31 @@
 <edge source="rxn00935_c" target="EX_cpd00024_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00938_c" target="EX_cpd00421_e" id="0">
+<edge source="rxn00950_c" target="EX_cpd00039_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00950_c" target="EX_cpd00186_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00950_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00953_c" target="EX_cpd01080_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn00953_c" target="EX_cpd00033_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn00966_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn00966_c" target="EX_cpd00298_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn00973_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn00988_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00988_c" target="EX_cpd00091_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00991_c" target="EX_cpd00046_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn00991_c" target="EX_cpd00091_e" id="0">
+<edge source="rxn00991_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn00992_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn00992_c" target="EX_cpd00091_e" id="0">
+<edge source="rxn00992_c" target="EX_cpd00421_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01000_c" target="EX_cpd15605_e" id="0">
@@ -2746,13 +2503,7 @@
 <edge source="rxn01000_c" target="EX_cpd00066_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01000_c" target="EX_cpd00216_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn01011_c" target="EX_cpd00038_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01013_c" target="EX_cpd00516_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01013_c" target="EX_cpd00054_e" id="0">
@@ -2767,13 +2518,16 @@
 <edge source="rxn01019_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01044_c" target="EX_cpd00159_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn01044_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
 </edge>
-<edge source="rxn01048_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn01044_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01069_c" target="EX_cpd00132_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn01100_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01101_c" target="EX_cpd00023_e" id="0">
@@ -2782,20 +2536,8 @@
 <edge source="rxn01101_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01101_c" target="EX_cpd00027_e" id="0">
+<edge source="rxn01114_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn01111_c" target="EX_cpd00080_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn01111_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn01114_c" target="EX_cpd00075_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01116_c" target="EX_cpd00186_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn01116_c" target="EX_cpd00161_e" id="0">
   <data key="d1">positive</data>
@@ -2804,12 +2546,6 @@
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01137_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01137_c" target="EX_cpd00298_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01143_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01143_c" target="EX_cpd00421_e" id="0">
@@ -2821,10 +2557,19 @@
 <edge source="rxn01148_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01199_c" target="EX_cpd00159_e" id="0">
+<edge source="rxn01199_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01199_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01200_c" target="EX_cpd00080_e" id="0">
+<edge source="rxn01204_c" target="EX_cpd00046_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01204_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn01204_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01208_c" target="EX_cpd11583_e" id="0">
@@ -2833,20 +2578,17 @@
 <edge source="rxn01208_c" target="EX_cpd15604_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01213_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn01215_c" target="EX_cpd00089_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01226_c" target="EX_cpd00023_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01226_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn01231_c" target="EX_cpd00091_e" id="0">
+  <data key="d1">positive</data>
 </edge>
-<edge source="rxn01231_c" target="EX_cpd00075_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn01231_c" target="EX_cpd00033_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn01233_c" target="EX_cpd00132_e" id="0">
   <data key="d1">negative</data>
@@ -2860,16 +2602,22 @@
 <edge source="rxn01255_c" target="EX_cpd00091_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01258_c" target="EX_cpd00186_e" id="0">
+<edge source="rxn01258_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn01270_c" target="EX_cpd15605_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01270_c" target="EX_cpd00066_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn01275_c" target="EX_cpd00126_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01286_c" target="EX_cpd00035_e" id="0">
+<edge source="rxn01286_c" target="EX_cpd00041_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01292_c" target="EX_cpd00035_e" id="0">
+<edge source="rxn01286_c" target="EX_cpd00033_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01297_c" target="EX_cpd00035_e" id="0">
@@ -2884,6 +2632,9 @@
 <edge source="rxn01314_c" target="EX_cpd00023_e" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="rxn01315_c" target="EX_cpd00023_e" id="0">
+  <data key="d1">positive</data>
+</edge>
 <edge source="rxn01332_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
@@ -2893,19 +2644,10 @@
 <edge source="rxn01332_c" target="EX_cpd00091_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01334_c" target="EX_cpd00367_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn01334_c" target="EX_cpd00550_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01343_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn01343_c" target="EX_cpd00298_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn01352_c" target="EX_cpd11588_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01352_c" target="EX_cpd11589_e" id="0">
@@ -2917,15 +2659,6 @@
 <edge source="rxn01353_c" target="EX_cpd00161_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01358_c" target="EX_cpd11640_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01366_c" target="EX_cpd00100_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn01368_c" target="EX_cpd11588_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn01434_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
 </edge>
@@ -2935,14 +2668,8 @@
 <edge source="rxn01446_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01446_c" target="EX_cpd00588_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn01461_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn01461_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn01461_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
@@ -2950,13 +2677,7 @@
 <edge source="rxn01462_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01462_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn01462_c" target="EX_cpd00064_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01466_c" target="EX_cpd00045_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01476_c" target="EX_cpd00011_e" id="0">
@@ -2971,23 +2692,20 @@
 <edge source="rxn01504_c" target="EX_cpd11583_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01504_c" target="EX_cpd15604_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01505_c" target="EX_cpd00106_e" id="0">
+<edge source="rxn01505_c" target="EX_cpd00027_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01512_c" target="EX_cpd00126_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01513_c" target="EX_cpd00298_e" id="0">
+<edge source="rxn01513_c" target="EX_cpd00132_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01513_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01518_c" target="EX_cpd00550_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn01520_c" target="EX_cpd00091_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn01520_c" target="EX_cpd00421_e" id="0">
   <data key="d1">positive</data>
@@ -3001,8 +2719,8 @@
 <edge source="rxn01548_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01575_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn01548_c" target="EX_cpd00159_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn01575_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
@@ -3013,22 +2731,10 @@
 <edge source="rxn01603_c" target="EX_cpd00035_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn01629_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01643_c" target="EX_cpd00023_e" id="0">
+<edge source="rxn01643_c" target="EX_cpd00035_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01648_c" target="EX_cpd00367_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01649_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01649_c" target="EX_cpd00298_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01682_c" target="EX_cpd00041_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01682_c" target="EX_cpd00516_e" id="0">
@@ -3052,26 +2758,26 @@
 <edge source="rxn01740_c" target="EX_cpd00091_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01763_c" target="EX_cpd00035_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn01799_c" target="EX_cpd00038_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn01800_c" target="EX_cpd00129_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01800_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn01859_c" target="EX_cpd00018_e" id="0">
+<edge source="rxn01859_c" target="EX_cpd00132_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn01870_c" target="EX_cpd00080_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn01985_c" target="EX_cpd00091_e" id="0">
+<edge source="rxn01964_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
+</edge>
+<edge source="rxn01964_c" target="EX_cpd00516_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01964_c" target="EX_cpd00091_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn01985_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
@@ -3082,7 +2788,7 @@
 <edge source="rxn02160_c" target="EX_cpd00186_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn02175_c" target="EX_cpd00126_e" id="0">
+<edge source="rxn02175_c" target="EX_cpd00027_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn02185_c" target="EX_cpd00156_e" id="0">
@@ -3109,10 +2815,10 @@
 <edge source="rxn02213_c" target="EX_cpd00091_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn02264_c" target="EX_cpd00161_e" id="0">
+<edge source="rxn02270_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn02270_c" target="EX_cpd00322_e" id="0">
+<edge source="rxn02270_c" target="EX_cpd00051_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn02290_c" target="EX_cpd00045_e" id="0">
@@ -3124,32 +2830,8 @@
 <edge source="rxn02320_c" target="EX_cpd00186_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn02380_c" target="EX_cpd00089_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn02380_c" target="EX_cpd00023_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn02402_c" target="EX_cpd00421_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn02456_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn02456_c" target="EX_cpd00039_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn02456_c" target="EX_cpd00322_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn02458_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn02458_c" target="EX_cpd00039_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn02458_c" target="EX_cpd00322_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn02473_c" target="EX_cpd00235_e" id="0">
   <data key="d1">negative</data>
@@ -3172,13 +2854,19 @@
 <edge source="rxn02507_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn02507_c" target="EX_cpd00041_e" id="0">
+<edge source="rxn02507_c" target="EX_cpd00516_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02507_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn02508_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn02508_c" target="EX_cpd00041_e" id="0">
+<edge source="rxn02508_c" target="EX_cpd00516_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02508_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn02760_c" target="EX_cpd00161_e" id="0">
@@ -3193,9 +2881,6 @@
 <edge source="rxn02789_c" target="EX_cpd15604_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn02803_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn02803_c" target="EX_cpd00186_e" id="0">
   <data key="d1">negative</data>
 </edge>
@@ -3208,7 +2893,7 @@
 <edge source="rxn02811_c" target="EX_cpd15604_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn02832_c" target="EX_cpd00186_e" id="0">
+<edge source="rxn02832_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn02834_c" target="EX_cpd00235_e" id="0">
@@ -3226,16 +2911,10 @@
 <edge source="rxn02866_c" target="EX_cpd11583_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn02866_c" target="EX_cpd15604_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn02889_c" target="EX_cpd11583_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn02889_c" target="EX_cpd15604_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn02898_c" target="EX_cpd00186_e" id="0">
+<edge source="rxn02898_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn02914_c" target="EX_cpd00023_e" id="0">
@@ -3243,9 +2922,6 @@
 </edge>
 <edge source="rxn02914_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn02914_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn02933_c" target="EX_cpd00073_e" id="0">
   <data key="d1">positive</data>
@@ -3295,8 +2971,11 @@
 <edge source="rxn03194_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn03236_c" target="EX_cpd00046_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn03236_c" target="EX_cpd00091_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn03236_c" target="EX_cpd00161_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn03241_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
@@ -3304,20 +2983,11 @@
 <edge source="rxn03437_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn03535_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn03536_c" target="EX_cpd00080_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn03540_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn03630_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn03630_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn03886_c" target="EX_cpd00179_e" id="0">
   <data key="d1">negative</data>
@@ -3328,59 +2998,26 @@
 <edge source="rxn04043_c" target="EX_cpd00080_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn04043_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn04043_c" target="EX_cpd00053_e" id="0">
+<edge source="rxn04043_c" target="EX_cpd00421_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn04046_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn04047_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn04052_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn04082_c" target="EX_cpd00035_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn04113_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn04153_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn04154_c" target="EX_cpd00039_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn04154_c" target="EX_cpd00421_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn04158_c" target="EX_cpd00054_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn04158_c" target="EX_cpd00322_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn04705_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn04954_c" target="EX_cpd00179_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn04989_c" target="EX_cpd00046_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn04989_c" target="EX_cpd00091_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn04989_c" target="EX_cpd00161_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn04996_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05040_c" target="EX_cpd00156_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn05059_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05059_c" target="EX_cpd00107_e" id="0">
   <data key="d1">positive</data>
@@ -3397,14 +3034,14 @@
 <edge source="rxn05147_c" target="EX_cpd00027_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05150_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05150_c" target="EX_cpd00027_e" id="0">
+<edge source="rxn05150_c" target="EX_cpd00117_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05151_c" target="EX_cpd00516_e" id="0">
   <data key="d1">negative</data>
+</edge>
+<edge source="rxn05152_c" target="EX_cpd00041_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05153_c" target="EX_cpd00126_e" id="0">
   <data key="d1">negative</data>
@@ -3413,9 +3050,6 @@
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05154_c" target="EX_cpd00064_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05155_c" target="EX_cpd00186_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05155_c" target="EX_cpd00053_e" id="0">
@@ -3430,9 +3064,6 @@
 <edge source="rxn05156_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05158_c" target="EX_cpd00080_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn05158_c" target="EX_cpd00100_e" id="0">
   <data key="d1">negative</data>
 </edge>
@@ -3442,52 +3073,46 @@
 <edge source="rxn05161_c" target="EX_cpd15604_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05164_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn05163_c" target="EX_cpd00298_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05164_c" target="EX_cpd00516_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn05165_c" target="EX_cpd11580_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05165_c" target="EX_cpd00105_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn05165_c" target="EX_cpd00129_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05170_c" target="EX_cpd00075_e" id="0">
+<edge source="rxn05168_c" target="EX_cpd00156_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05171_c" target="EX_cpd00132_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05171_c" target="EX_cpd00186_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05172_c" target="EX_cpd00235_e" id="0">
+<edge source="rxn05172_c" target="EX_cpd00132_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05172_c" target="EX_cpd00132_e" id="0">
+<edge source="rxn05172_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05175_c" target="EX_cpd00106_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05175_c" target="EX_cpd00588_e" id="0">
+<edge source="rxn05176_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05176_c" target="EX_cpd00132_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05176_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05177_c" target="EX_cpd00235_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05177_c" target="EX_cpd00033_e" id="0">
+<edge source="rxn05176_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn05179_c" target="EX_cpd11580_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05179_c" target="EX_cpd00322_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05197_c" target="EX_cpd00156_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05197_c" target="EX_cpd00322_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05198_c" target="EX_cpd00367_e" id="0">
@@ -3496,28 +3121,16 @@
 <edge source="rxn05198_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05198_c" target="EX_cpd00100_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05201_c" target="EX_cpd00018_e" id="0">
+<edge source="rxn05200_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05202_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05205_c" target="EX_cpd00129_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05205_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05206_c" target="EX_cpd11640_e" id="0">
+<edge source="rxn05201_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05206_c" target="EX_cpd00023_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05206_c" target="EX_cpd00161_e" id="0">
+<edge source="rxn05206_c" target="EX_cpd00027_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05207_c" target="EX_cpd00130_e" id="0">
@@ -3526,13 +3139,10 @@
 <edge source="rxn05209_c" target="EX_cpd00179_e" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="rxn05226_c" target="EX_cpd00298_e" id="0">
+  <data key="d1">positive</data>
+</edge>
 <edge source="rxn05226_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05231_c" target="EX_cpd00080_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05231_c" target="EX_cpd00161_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05233_c" target="EX_cpd00107_e" id="0">
@@ -3544,7 +3154,13 @@
 <edge source="rxn05234_c" target="EX_cpd11589_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05289_c" target="EX_cpd00588_e" id="0">
+<edge source="rxn05256_c" target="EX_cpd00041_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05289_c" target="EX_cpd00107_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05289_c" target="EX_cpd00161_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05292_c" target="EX_cpd00067_e" id="0">
@@ -3559,8 +3175,8 @@
 <edge source="rxn05298_c" target="EX_cpd00298_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05301_c" target="EX_cpd00046_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05301_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05305_c" target="EX_cpd00516_e" id="0">
   <data key="d1">negative</data>
@@ -3574,13 +3190,10 @@
 <edge source="rxn05312_c" target="EX_cpd00080_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05313_c" target="EX_cpd00038_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05315_c" target="EX_cpd00053_e" id="0">
+<edge source="rxn05313_c" target="EX_cpd00046_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05316_c" target="EX_cpd00011_e" id="0">
+<edge source="rxn05315_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05316_c" target="EX_cpd00298_e" id="0">
@@ -3592,68 +3205,47 @@
 <edge source="rxn05317_c" target="EX_cpd00091_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05317_c" target="EX_cpd00033_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05318_c" target="EX_cpd00018_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn05318_c" target="EX_cpd00588_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05366_c" target="EX_cpd11589_e" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="rxn05370_c" target="EX_cpd00588_e" id="0">
+  <data key="d1">negative</data>
+</edge>
 <edge source="rxn05374_c" target="EX_cpd00018_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05391_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn05399_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">negative</data>
 </edge>
-<edge source="rxn05403_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05407_c" target="EX_cpd00588_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn05407_c" target="EX_cpd00161_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn05434_c" target="EX_cpd11589_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05438_c" target="EX_cpd00039_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05440_c" target="EX_cpd00159_e" id="0">
+<edge source="rxn05435_c" target="EX_cpd00588_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05443_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05444_c" target="EX_cpd00588_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05466_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05444_c" target="EX_cpd00161_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05485_c" target="EX_cpd00041_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05493_c" target="EX_cpd00038_e" id="0">
+<edge source="rxn05493_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05494_c" target="EX_cpd15560_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05494_c" target="EX_cpd00117_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05496_c" target="EX_cpd00035_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05514_c" target="EX_cpd00235_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn05527_c" target="EX_cpd00367_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn05527_c" target="EX_cpd00046_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn05527_c" target="EX_cpd00100_e" id="0">
   <data key="d1">positive</data>
@@ -3661,14 +3253,11 @@
 <edge source="rxn05533_c" target="EX_cpd00041_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05535_c" target="EX_cpd00159_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05535_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05536_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn05535_c" target="EX_cpd00117_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn05536_c" target="EX_cpd00117_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn05537_c" target="EX_cpd00041_e" id="0">
   <data key="d1">negative</data>
@@ -3676,19 +3265,19 @@
 <edge source="rxn05538_c" target="EX_cpd00129_e" id="0">
   <data key="d1">negative</data>
 </edge>
+<edge source="rxn05539_c" target="EX_cpd00051_e" id="0">
+  <data key="d1">positive</data>
+</edge>
 <edge source="rxn05540_c" target="EX_cpd00023_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05540_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05541_c" target="EX_cpd00132_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn05542_c" target="EX_cpd00033_e" id="0">
+  <data key="d1">negative</data>
 </edge>
-<edge source="rxn05542_c" target="EX_cpd15560_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05543_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn05543_c" target="EX_cpd00516_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05544_c" target="EX_cpd11583_e" id="0">
@@ -3712,15 +3301,6 @@
 <edge source="rxn05557_c" target="EX_cpd00588_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn05560_c" target="EX_cpd00033_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn05564_c" target="EX_cpd00080_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05564_c" target="EX_cpd00421_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn05565_c" target="EX_cpd00235_e" id="0">
   <data key="d1">positive</data>
 </edge>
@@ -3731,6 +3311,9 @@
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05566_c" target="EX_cpd00054_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05569_c" target="EX_cpd00367_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05571_c" target="EX_cpd00067_e" id="0">
@@ -3748,11 +3331,11 @@
 <edge source="rxn05582_c" target="EX_cpd00033_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05599_c" target="EX_cpd00075_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05599_c" target="EX_cpd00091_e" id="0">
+  <data key="d1">positive</data>
 </edge>
-<edge source="rxn05602_c" target="EX_cpd00075_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05599_c" target="EX_cpd00033_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05602_c" target="EX_cpd00159_e" id="0">
   <data key="d1">positive</data>
@@ -3760,23 +3343,14 @@
 <edge source="rxn05605_c" target="EX_cpd00130_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05607_c" target="EX_cpd00132_e" id="0">
+<edge source="rxn05607_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn05607_c" target="EX_cpd11640_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn05607_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn05610_c" target="EX_cpd00235_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn05638_c" target="EX_cpd00129_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn05649_c" target="EX_cpd00051_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn05651_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
@@ -3790,7 +3364,10 @@
 <edge source="rxn05663_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05663_c" target="EX_cpd00041_e" id="0">
+<edge source="rxn05663_c" target="EX_cpd00516_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05663_c" target="EX_cpd00091_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05667_c" target="EX_cpd00073_e" id="0">
@@ -3799,7 +3376,10 @@
 <edge source="rxn05667_c" target="EX_cpd00064_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05671_c" target="EX_cpd00159_e" id="0">
+<edge source="rxn05671_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05671_c" target="EX_cpd00322_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn05681_c" target="EX_cpd00067_e" id="0">
@@ -3817,22 +3397,19 @@
 <edge source="rxn05893_c" target="EX_cpd00018_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn05893_c" target="EX_cpd01080_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05909_c" target="EX_cpd00051_e" id="0">
+  <data key="d1">positive</data>
 </edge>
-<edge source="rxn05909_c" target="EX_cpd00091_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05937_c" target="EX_cpd00039_e" id="0">
+  <data key="d1">positive</data>
 </edge>
-<edge source="rxn05937_c" target="EX_cpd00018_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn05937_c" target="EX_cpd00054_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn05938_c" target="EX_cpd00235_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn06060_c" target="EX_cpd00018_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn06335_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn06510_c" target="EX_cpd00054_e" id="0">
@@ -3841,32 +3418,11 @@
 <edge source="rxn06526_c" target="EX_cpd00089_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn06586_c" target="EX_cpd00038_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn06591_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn06777_c" target="EX_cpd00054_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn06874_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn06937_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn07432_c" target="EX_cpd00038_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn07433_c" target="EX_cpd00038_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn07434_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn07435_c" target="EX_cpd00067_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn08094_c" target="EX_cpd00100_e" id="0">
   <data key="d1">negative</data>
@@ -3874,19 +3430,25 @@
 <edge source="rxn08201_c" target="EX_cpd11580_e" id="0">
   <data key="d1">negative</data>
 </edge>
+<edge source="rxn08201_c" target="EX_cpd00105_e" id="0">
+  <data key="d1">positive</data>
+</edge>
 <edge source="rxn08291_c" target="EX_cpd00516_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn08308_c" target="EX_cpd11580_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn08352_c" target="EX_cpd00322_e" id="0">
+<edge source="rxn08308_c" target="EX_cpd00105_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn08352_c" target="EX_cpd01080_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn08556_c" target="EX_cpd00080_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn08556_c" target="EX_cpd00132_e" id="0">
+<edge source="rxn08556_c" target="EX_cpd00107_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn08557_c" target="EX_cpd00100_e" id="0">
@@ -3898,35 +3460,20 @@
 <edge source="rxn08647_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn08647_c" target="EX_cpd00053_e" id="0">
-  <data key="d1">negative</data>
-</edge>
 <edge source="rxn08647_c" target="EX_cpd00421_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn08655_c" target="EX_cpd00298_e" id="0">
+<edge source="rxn08655_c" target="EX_cpd00322_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn08657_c" target="EX_cpd00080_e" id="0">
+<edge source="rxn08801_c" target="EX_cpd00130_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn08657_c" target="EX_cpd00107_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn08801_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn08822_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn08901_c" target="EX_cpd00130_e" id="0">
+<edge source="rxn08822_c" target="EX_cpd00130_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn08901_c" target="EX_cpd00023_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn08971_c" target="EX_cpd00039_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn09240_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
@@ -3937,7 +3484,7 @@
 <edge source="rxn09296_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn09296_c" target="EX_cpd00053_e" id="0">
+<edge source="rxn09296_c" target="EX_cpd00161_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn09657_c" target="EX_cpd00035_e" id="0">
@@ -3946,16 +3493,13 @@
 <edge source="rxn09674_c" target="EX_cpd00516_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn09685_c" target="EX_cpd00045_e" id="0">
+<edge source="rxn09685_c" target="EX_cpd00018_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn09687_c" target="EX_cpd00091_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn09685_c" target="EX_cpd00129_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn09687_c" target="EX_cpd00322_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn09688_c" target="EX_cpd11588_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn09688_c" target="EX_cpd11589_e" id="0">
@@ -3964,17 +3508,14 @@
 <edge source="rxn09989_c" target="EX_cpd00027_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn10042_c" target="EX_cpd01080_e" id="0">
+<edge source="rxn10042_c" target="EX_cpd00033_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn10043_c" target="EX_cpd00018_e" id="0">
+<edge source="rxn10043_c" target="EX_cpd11640_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn10060_c" target="EX_cpd00159_e" id="0">
   <data key="d1">positive</data>
-</edge>
-<edge source="rxn10060_c" target="EX_cpd11588_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn10094_c" target="EX_cpd00075_e" id="0">
-  <data key="d1">negative</data>
 </edge>
 <edge source="rxn10113_c" target="EX_cpd00100_e" id="0">
   <data key="d1">positive</data>
@@ -3985,17 +3526,11 @@
 <edge source="rxn10116_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn10116_c" target="EX_cpd15560_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn10118_c" target="EX_cpd11640_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn10120_c" target="EX_cpd00067_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn10122_c" target="EX_cpd00367_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 <edge source="rxn10122_c" target="EX_cpd00550_e" id="0">
   <data key="d1">positive</data>
@@ -4003,10 +3538,7 @@
 <edge source="rxn10124_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn10124_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn10125_c" target="EX_cpd00421_e" id="0">
+<edge source="rxn10131_c" target="EX_cpd00588_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn10136_c" target="EX_cpd00067_e" id="0">
@@ -4015,8 +3547,11 @@
 <edge source="rxn10136_c" target="EX_cpd00054_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn10162_c" target="EX_cpd00516_e" id="0">
-  <data key="d1">negative</data>
+<edge source="rxn10162_c" target="EX_cpd00235_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn10162_c" target="EX_cpd00132_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn10163_c" target="EX_cpd00588_e" id="0">
   <data key="d1">negative</data>
@@ -4024,26 +3559,23 @@
 <edge source="rxn10168_c" target="EX_cpd00298_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn10169_c" target="EX_cpd00080_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn10169_c" target="EX_cpd00053_e" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="rxn10169_c" target="EX_cpd00421_e" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="rxn10181_c" target="EX_cpd00298_e" id="0">
+  <data key="d1">positive</data>
+</edge>
 <edge source="rxn10184_c" target="EX_cpd00179_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn10474_c" target="EX_cpd00161_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn10481_c" target="EX_cpd00130_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn10806_c" target="EX_cpd11580_e" id="0">
   <data key="d1">negative</data>
+</edge>
+<edge source="rxn10806_c" target="EX_cpd00105_e" id="0">
+  <data key="d1">positive</data>
 </edge>
 <edge source="rxn10945_c" target="EX_cpd00126_e" id="0">
   <data key="d1">positive</data>
@@ -4054,41 +3586,35 @@
 <edge source="rxn11268_c" target="EX_cpd00067_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn11941_c" target="EX_cpd00045_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn11942_c" target="EX_cpd00039_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn11942_c" target="EX_cpd00421_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn11944_c" target="EX_cpd00035_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn12206_c" target="EX_cpd00130_e" id="0">
+<edge source="rxn12206_c" target="EX_cpd00117_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn12206_c" target="EX_cpd11640_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn12405_c" target="EX_cpd00046_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn12405_c" target="EX_cpd00091_e" id="0">
+<edge source="rxn12405_c" target="EX_cpd00421_e" id="0">
   <data key="d1">positive</data>
 </edge>
-<edge source="rxn12432_c" target="EX_cpd00130_e" id="0">
+<edge source="rxn12432_c" target="EX_cpd00117_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn12432_c" target="EX_cpd11640_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn12633_c" target="EX_cpd00041_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn12635_c" target="EX_cpd00159_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn12635_c" target="EX_cpd00027_e" id="0">
-  <data key="d1">negative</data>
-</edge>
-<edge source="rxn12636_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn12635_c" target="EX_cpd00117_e" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="rxn12636_c" target="EX_cpd00117_e" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="rxn12637_c" target="EX_cpd00041_e" id="0">
   <data key="d1">negative</data>
@@ -4102,13 +3628,10 @@
 <edge source="rxn12639_c" target="EX_cpd00053_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn12640_c" target="EX_cpd00132_e" id="0">
-  <data key="d1">positive</data>
+<edge source="rxn12641_c" target="EX_cpd00033_e" id="0">
+  <data key="d1">negative</data>
 </edge>
-<edge source="rxn12641_c" target="EX_cpd15560_e" id="0">
-  <data key="d1">positive</data>
-</edge>
-<edge source="rxn12642_c" target="EX_cpd00067_e" id="0">
+<edge source="rxn12642_c" target="EX_cpd00516_e" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="rxn12643_c" target="EX_cpd11583_e" id="0">
@@ -4144,9 +3667,6 @@
 <edge source="rxn12846_c" target="EX_cpd00066_e" id="0">
   <data key="d1">negative</data>
 </edge>
-<edge source="rxn12846_c" target="EX_cpd00216_e" id="0">
-  <data key="d1">positive</data>
-</edge>
 <edge source="rxn12848_c" target="EX_cpd00126_e" id="0">
   <data key="d1">positive</data>
 </edge>
@@ -4161,8 +3681,5 @@
 </edge>
 <edge source="rxn12850_c" target="EX_cpd00066_e" id="0">
   <data key="d1">negative</data>
-</edge>
-<edge source="rxn12850_c" target="EX_cpd00216_e" id="0">
-  <data key="d1">positive</data>
 </edge>
 </graph></graphml>

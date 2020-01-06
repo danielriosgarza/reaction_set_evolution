@@ -357,35 +357,41 @@ def build_association_network(association_d, reacs, mets):
 
 
 rec=0
-mets  =['m'+autoIncrement() for i in range(18)]
+mets  =['m'+autoIncrement() for i in range(23)]
 
 ex_mets=['EX_' + mets[i] for i in range(10)]          
 
 rec=0
-react_ids = ['r' +autoIncrement() for i in range(12)]
+react_ids = ['r' +autoIncrement() for i in range(15)]
 
-r1 = Reaction(react_ids[0], [ex_mets[0]], [mets[9], mets[10]])
-r2 = Reaction(react_ids[1], [ex_mets[1]], [mets[10], mets[11]])
-r3 = Reaction(react_ids[2], [ex_mets[2]], [mets[11], mets[12]])
-r4 = Reaction(react_ids[3], [ex_mets[3]], [mets[12]])
-r5 = Reaction(react_ids[4], [ex_mets[4]], [mets[4]])
-r6 = Reaction(react_ids[5], [ex_mets[5],ex_mets[6]], [mets[14]])
-r7 = Reaction(react_ids[6], [ex_mets[7]], [mets[14]])
-r8 = Reaction(react_ids[7], [ex_mets[8]], [mets[14]])
-r9 = Reaction(react_ids[8], [mets[10]], [mets[15]])
-r10 = Reaction(react_ids[9], [mets[9]], [ex_mets[9]])
-r11 = Reaction(react_ids[10], [mets[11],mets[12]], [mets[16]])
-r12 = Reaction(react_ids[11], [mets[4],mets[14]], [mets[17]])
+r1 = Reaction(react_ids[0], [ex_mets[0]], [mets[0], mets[1]])
+r2 = Reaction(react_ids[1], [ex_mets[1]], [mets[0], mets[2]])
+r3 = Reaction(react_ids[2], [ex_mets[2]], [mets[3]])
+r4 = Reaction(react_ids[3], [ex_mets[3]], [mets[4]])
+r5 = Reaction(react_ids[4], [ex_mets[4]], [mets[5]])
+r6 = Reaction(react_ids[5], [ex_mets[5],ex_mets[6]], [mets[6]])
+r7 = Reaction(react_ids[6], [ex_mets[7]], [mets[7]])
+r8 = Reaction(react_ids[7], [ex_mets[8]], [mets[7]])
+r9 = Reaction(react_ids[8], [mets[0]], [mets[8]])
+r10 = Reaction(react_ids[9], [mets[1]], [ex_mets[9]])
+r11 = Reaction(react_ids[10], [mets[6]], [mets[7]])
+r12 = Reaction(react_ids[11], [mets[5],mets[7]], [mets[9]])
+r13 = Reaction(react_ids[12], [mets[4]], [mets[10]])
+r14 = Reaction(react_ids[13], [mets[2],mets[8]], [mets[11]])
+r15 = Reaction(react_ids[14], [mets[3]], [mets[4], mets[2]])
 
 
-reactions ={r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12}
+
+
+
+reactions ={r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15}
   
 react_dict = {i.name:i for i in reactions} 
 
 k=list(react_dict.keys())
 k.sort()
    
-phenotype={mets[-1], mets[-2], mets[-3]}
+phenotype={mets[9], mets[10], mets[11]}
 
 m=Model(reactions)
 
@@ -393,7 +399,7 @@ m.is_growing(ex_mets, phenotype)
 
 
 
-r,e=get_mfs(reactions, ex_mets, phenotype, 100)
+r,e=get_mfs(reactions, ex_mets, phenotype, 10000)
 
 rd={}
 
@@ -412,28 +418,27 @@ for i in range(10000):
         envs[i]=get_average_env(emet, environment)
         rf[i] = get_freq(k, mfs)
 
-    
+  
 s_rf = np.sum(rf, axis=1)
-
-rf = rf[s_rf!=0]
+rfn = rf[s_rf!=0]
 envs= envs[s_rf!=0]
 
-av_rf = np.mean(rf, axis=0)
+av_rfn = np.mean(rfn, axis=0)
+diff_rfn = rfn-av_rfn
+m_diff_rfn = np.sum(np.abs(diff_rfn), axis=0)
+m_diff_rfn=np.round(m_diff_rfn,10)
+
+
 
 reactome = np.array(k)
-e_driv_r = reactome[av_rf!=1]
+e_driv_r = reactome[m_diff_rfn!=0]
 
-e_rf = rf.T[av_rf!=1].T
+diff_efn_ed = diff_rfn.T[m_diff_rfn!=0].T
+diff_efn_ed  = np.arcsinh(diff_efn_ed)
 
-diff_e_rf = e_rf-av_rf[av_rf!=1]
-
-diff_e_rf  = np.arcsinh(diff_e_rf )
-
-clss_e_rf=np.zeros(diff_e_rf.shape)
-for i,t in enumerate(diff_e_rf):
+clss_e_rf=np.zeros(diff_efn_ed.shape)
+for i,t in enumerate(diff_efn_ed):
     clss_e_rf[i] = assign_to_class(t, mt=True)
-
-
 
 
 av_envs=np.mean(envs, axis=0)

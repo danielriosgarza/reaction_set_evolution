@@ -1,0 +1,1336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="rxn00011_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00029_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00048_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00060_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00097_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00100_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00101_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00105_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00113_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00126_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00132_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00134_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00145_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00146_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00147_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00148_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00151_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00157_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00159_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00161_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00162_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00165_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00171_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00179_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00184_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00187_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00189_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00193_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00194_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00205_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00213_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00237_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00247_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00256_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00258_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00260_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00262_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00265_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00278_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00283_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00285_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00300_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00313_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00333_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00337_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00338_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00342_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00347_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00364_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00409_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00410_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00412_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00414_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00423_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00440_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00459_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00471_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00499_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00505_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00506_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00515_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00519_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00533_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00541_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00542_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00545_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00552_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00555_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00558_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00559_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00612_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00615_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00650_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00690_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00692_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00707_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00711_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00717_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00726_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00727_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00737_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00740_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00747_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00762_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00763_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00772_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00778_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00780_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00784_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00785_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00786_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00791_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00799_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00802_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00830_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00834_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00836_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00839_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00849_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00898_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00903_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00913_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00917_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00926_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn00973_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01019_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01069_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01116_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01137_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01200_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01208_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01213_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01225_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01241_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01255_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01286_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01297_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01300_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01332_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01366_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01368_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01434_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01466_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01484_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01485_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01492_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01505_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01544_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01547_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01575_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01629_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01643_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01739_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01740_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01816_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01870_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01871_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01961_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01964_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn01986_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02005_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02155_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02175_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02185_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02212_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02213_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02264_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02341_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02342_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02373_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02402_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02474_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02475_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02507_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02508_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02789_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02811_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02898_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn02988_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03062_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03080_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03194_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03437_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03541_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03638_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03891_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03907_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03908_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03909_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03910_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn03958_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn04113_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05040_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05054_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05059_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05145_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05150_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05155_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05158_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05170_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05177_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05197_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05201_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05202_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05206_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05207_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05209_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05211_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05217_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05219_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05221_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05226_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05235_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05243_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05244_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05297_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05298_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05301_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05305_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05313_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05465_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05466_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05485_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05493_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05494_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05496_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05508_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05527_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05533_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05534_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05535_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05536_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05537_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05538_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05540_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05541_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05542_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05543_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05544_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05545_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05546_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05547_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05555_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05557_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05559_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05560_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05561_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05564_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05569_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05605_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05610_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05616_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05645_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05654_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05669_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05938_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn05939_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn06591_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn06874_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn06937_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn08647_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn08655_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn08756_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn08808_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn08809_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn08975_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn08976_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn09296_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn10042_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn10052_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn10122_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn10150_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn10180_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn10537_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12206_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12432_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12510_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12633_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12634_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12635_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12636_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12637_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12638_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12639_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12640_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12641_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12642_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12643_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12644_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12645_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12646_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12844_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12845_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12846_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12847_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12848_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12849_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12850_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="rxn12851_c">
+  <data key="d0">reaction</data>
+</node>
+<node id="EX_cpd00276_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00041_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00132_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00079_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00013_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd11587_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00011_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00130_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00023_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00047_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00067_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00035_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd11593_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00106_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00024_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00064_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd11589_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00053_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00421_e">
+  <data key="d0">metabolite</data>
+</node>
+<node id="EX_cpd00309_e">
+  <data key="d0">metabolite</data>
+</node>
+<edge source="rxn00011_c" target="EX_cpd00047_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00100_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00101_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00105_c" target="EX_cpd00013_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00113_c" target="EX_cpd00064_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00145_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00146_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00148_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00151_c" target="EX_cpd00064_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00157_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00157_c" target="EX_cpd00421_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00162_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00189_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00193_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00194_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00247_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00258_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00260_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00278_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00283_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00285_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00333_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00337_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00338_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00342_c" target="EX_cpd00132_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00364_c" target="EX_cpd00013_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00409_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00409_c" target="EX_cpd00421_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00414_c" target="EX_cpd00064_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00440_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00459_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00505_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00519_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00533_c" target="EX_cpd00064_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00541_c" target="EX_cpd11587_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00559_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00615_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00650_c" target="EX_cpd00035_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00692_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00726_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00727_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00737_c" target="EX_cpd00047_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00747_c" target="EX_cpd00132_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00763_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00772_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00778_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00780_c" target="EX_cpd00276_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00784_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn00785_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00791_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00799_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00802_c" target="EX_cpd00064_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00839_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00898_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00903_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn00973_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01019_c" target="EX_cpd00064_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01069_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01116_c" target="EX_cpd00041_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01208_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn01225_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn01255_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01286_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn01297_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01300_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01332_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01434_c" target="EX_cpd00064_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01544_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01575_c" target="EX_cpd00047_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01643_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01739_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01740_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01870_c" target="EX_cpd00035_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01961_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01964_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn01986_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn02185_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02212_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02213_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02341_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02402_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02507_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02508_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02789_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn02811_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn02898_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn02988_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn03062_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn03194_c" target="EX_cpd00047_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn03437_c" target="EX_cpd00047_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn03891_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05059_c" target="EX_cpd00421_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05150_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05177_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05201_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05202_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05206_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05206_c" target="EX_cpd00421_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05217_c" target="EX_cpd00041_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05221_c" target="EX_cpd00106_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05244_c" target="EX_cpd00047_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05301_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05305_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05485_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05493_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05508_c" target="EX_cpd00132_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05534_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05535_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05536_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05537_c" target="EX_cpd00106_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05538_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05542_c" target="EX_cpd00276_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05543_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05544_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05546_c" target="EX_cpd00013_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05555_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05557_c" target="EX_cpd00132_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05564_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn05610_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05669_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn05938_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn06874_c" target="EX_cpd00276_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn08976_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn09296_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn10122_c" target="EX_cpd00421_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn10150_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn10180_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn12206_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12432_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12510_c" target="EX_cpd00309_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn12634_c" target="EX_cpd00130_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12635_c" target="EX_cpd00079_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn12636_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn12637_c" target="EX_cpd00106_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12638_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12641_c" target="EX_cpd00276_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn12642_c" target="EX_cpd00067_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12643_c" target="EX_cpd00053_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12645_c" target="EX_cpd00013_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12844_c" target="EX_cpd00041_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12846_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn12847_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12848_c" target="EX_cpd00041_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="rxn12850_c" target="EX_cpd00011_e" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="rxn12851_c" target="EX_cpd00024_e" id="0">
+  <data key="d1">negative</data>
+</edge>
+</graph></graphml>

@@ -143,7 +143,10 @@ def get_growth_env(model_template, model, reactome, mfs_profile, transporters):
     env_vec = -1*env_vec
     env_vec = np.clip(env_vec, 0,1000)
     env_vec = env_vec/sol
-    return env_vec/max(env_vec)
+    if max(env_vec)==0:
+        return env_vec
+    else:
+        return env_vec/max(env_vec)
 
 def get_environment_sample(model, env_vector, env_transporters, reactome, mfs_matrix, interest_transporters, sample_size):
     '''
@@ -213,8 +216,8 @@ def main(family):
         used_environment[i] = get_environment_sample(mc, ev.matrix[i], ev.transporters, fam_mfs.reactome[fam_mfs.include_reactome], v, transporter,200)
         print(i)  
     
-    store = {'used_env':used_environment.copy(), 'model_sample':model_sample.copy(), 'full_freq_m':full_freq_m.copy()}
-    pickle.dump(store, open(data_folder + '/' + family + '.pkl', 'wb'))
+    store = {'used_env':used_environment.copy(), 'model_sample':model_sample.copy(), 'full_freq_m':full_freq_m.copy(), 'reactome':fam_mfs.reactome[fam_mfs.include_reactome], 'transporter':transporter.copy()}
+    pickle.dump(store, open(data_folder + '/pickles/' + family + '.pkl', 'wb'))
 
 import sys
 main(sys.argv[1])
