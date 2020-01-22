@@ -249,6 +249,7 @@ def get_mfs(reactions, env, phenotype, iterations):
     envs={}
     for i in range(iterations):
         np.random.shuffle(rl)
+        np.random.shuffle(rl)
         
         rlc=rl[:]
         
@@ -292,17 +293,13 @@ def get_freq(reaction_list, mfs):
     
 def get_average_env(env_vec, env_d):
     k = np.zeros(len(env_vec))
+    denom = len(env_d)
     
-    for z, t in enumerate(env_d):
-        l=[]
-        count=0
-        for s in env_d[t]:
-            l+=list(s)
-            count+=1
-        
-        for i,name in enumerate(env_vec):
-            k[i] = (1./len(env_d)) * l.count(name)
-    return k/max(k)    
+    for i, t in enumerate(env_d):
+        for j,m in enumerate(env_vec):
+            if m in env_d[t][0]:
+                k[j] += 1/denom
+    return k    
 
 
 def cosine(a,b):
@@ -325,7 +322,7 @@ def assign_to_class(vector, sig_level=0.05, mt=False):
     
     pvs =sts.norm.sf(np.abs(z_norm_deviate))
     if mt:
-        pvs = multipletests(pvs, alpha=sig_level)[1]
+        pvs = multipletests(pvs, alpha=sig_level, method='bonferroni')[1]
     
     pvs[pvs>=sig_level]=2
     pvs[(pvs<sig_level) & (sign==-1)]=3
@@ -337,6 +334,40 @@ def assign_to_class(vector, sig_level=0.05, mt=False):
     pvs[pvs==4]=1
     
     return pvs
+
+def assign_to_rank(vector, sig_level=0.05, mt=False):
+    '''
+    for environment_frequency - average
+    -1: reaction is significantly less frequent in this environment
+    0: reaction is neutral in this environment
+    1: reaction is significantly more frequent in this environment
+    
+    '''
+    SE = np.std(vector)/np.sqrt(len(vector))
+    z_norm_deviate =(vector-np.mean(vector))/SE
+    
+    
+    sign = z_norm_deviate/np.abs(z_norm_deviate)
+    
+    pvs =sts.norm.sf(np.abs(z_norm_deviate))
+    if mt:
+        pvs = multipletests(pvs, alpha=sig_level)[1]
+    
+    
+    ranksneg=np.zeros(len(pvs))
+    rankspos=np.zeros(len(pvs))
+    
+    ranksneg[sign==-1] = -1*sts.rankdata(-np.log10(pvs[sign==-1]))
+    ranksneg = ranksneg/max(np.abs(ranksneg))
+    
+    rankspos[sign==1] = sts.rankdata(-np.log10(pvs[sign==1]))
+    rankspos = rankspos/max(rankspos)
+    
+    ranks = ranksneg.copy()
+    ranks[sign==1] = rankspos[sign==1]
+    ranks[pvs>0.05]=0
+    
+    return ranks
 
 
 def build_association_network(association_d, reacs, mets):
@@ -399,24 +430,29 @@ m.is_growing(ex_mets, phenotype)
 
 
 
-r,e=get_mfs(reactions, ex_mets, phenotype, 10000)
+r,e=get_mfs(reactions, ex_mets, phenotype, 20000)
 
 rd={}
 
 emet = np.array(ex_mets)
 
-rf = np.zeros((10000, len(k)))
+rf = np.zeros((20000, len(k)))
 
-envs=np.zeros((10000, len(ex_mets)))
+envs=np.zeros((20000, len(ex_mets)))
 
-for i in range(10000):
+used=[]
+
+for i in range(20000):
     j = np.round(np.random.uniform(size=10))
-    env = emet[j.astype(np.bool)]
-    if m.is_growing(env,phenotype):
+    if list(j) not in used:
+        used.append(list(j))
         
-        mfs,environment = get_mfs(reactions, env, phenotype, 100)
-        envs[i]=get_average_env(emet, environment)
-        rf[i] = get_freq(k, mfs)
+        env = emet[j.astype(np.bool)]
+        if m.is_growing(env,phenotype):
+            
+            mfs,environment = get_mfs(reactions, env, phenotype, 1000)
+            envs[i]=get_average_env(emet, environment)
+            rf[i] = get_freq(k, mfs)
 
   
 s_rf = np.sum(rf, axis=1)
@@ -434,7 +470,7 @@ reactome = np.array(k)
 e_driv_r = reactome[m_diff_rfn!=0]
 
 diff_efn_ed = diff_rfn.T[m_diff_rfn!=0].T
-diff_efn_ed  = np.arcsinh(diff_efn_ed)
+#diff_efn_ed  = np.arcsinh(diff_efn_ed)
 
 clss_e_rf=np.zeros(diff_efn_ed.shape)
 for i,t in enumerate(diff_efn_ed):
@@ -445,7 +481,7 @@ av_envs=np.mean(envs, axis=0)
 driv_mets = emet[(av_envs!=0) & (av_envs<0.99)]
 envs_driv = envs.T[(av_envs!=0) & (av_envs<0.99)].T
 diff_envs = envs_driv-av_envs[(av_envs!=0) & (av_envs<0.99)]
-diff_envs=np.arcsinh(diff_envs)
+#diff_envs=np.arcsinh(diff_envs)
 clss_envs = np.zeros(diff_envs.shape)
 for i,t in enumerate(diff_envs):
     clss_envs[i]= assign_to_class(t, mt=True)
@@ -457,10 +493,10 @@ cosine_d={}
 for i, react in enumerate(e_driv_r):
     cosine_d[react] = np.array([cosine(clss_e_rf.T[i],clss_envs.T[z]) for z in range(len(driv_mets))])
     cosine_d[react] = np.nan_to_num(cosine_d[react], nan=np.nanmean(cosine_d[react]))
-    cosine_d[react] =np.arctanh(cosine_d[react])
+    #cosine_d[react] =np.arctanh(cosine_d[react])
 #for i, react in enumerate(e_driv_r):
 #    cosine_d[react] =np.arctanh(cosine_d[react]-.001)
     
-association_d = {i: assign_to_class(cosine_d[i],mt=True) for i in cosine_d}
+association_d = {i: assign_to_rank(cosine_d[i],mt=True) for i in cosine_d}
 g=build_association_network(association_d, e_driv_r, driv_mets)
 nx.write_graphml(g, '/home/daniel/studies/generative_models/git_rep/reaction_set_evolution/files/networks/toy_model_associations.graphml')

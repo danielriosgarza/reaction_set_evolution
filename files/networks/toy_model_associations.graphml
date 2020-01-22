@@ -61,16 +61,37 @@
 <edge source="r0001" target="EX_m0002" id="0">
   <data key="d1">negative</data>
 </edge>
+<edge source="r0001" target="EX_m0003" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0001" target="EX_m0004" id="0">
+  <data key="d1">negative</data>
+</edge>
 <edge source="r0002" target="EX_m0001" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="r0002" target="EX_m0002" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="r0002" target="EX_m0003" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0002" target="EX_m0004" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0003" target="EX_m0001" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0003" target="EX_m0002" id="0">
+  <data key="d1">negative</data>
+</edge>
 <edge source="r0003" target="EX_m0003" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="r0003" target="EX_m0004" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0004" target="EX_m0001" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="r0004" target="EX_m0002" id="0">
@@ -88,6 +109,9 @@
 <edge source="r0006" target="EX_m0007" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="r0006" target="EX_m0008" id="0">
+  <data key="d1">negative</data>
+</edge>
 <edge source="r0006" target="EX_m0009" id="0">
   <data key="d1">negative</data>
 </edge>
@@ -99,6 +123,9 @@
 </edge>
 <edge source="r0007" target="EX_m0008" id="0">
   <data key="d1">positive</data>
+</edge>
+<edge source="r0007" target="EX_m0009" id="0">
+  <data key="d1">negative</data>
 </edge>
 <edge source="r0008" target="EX_m0006" id="0">
   <data key="d1">negative</data>
@@ -118,13 +145,28 @@
 <edge source="r0010" target="EX_m0002" id="0">
   <data key="d1">negative</data>
 </edge>
+<edge source="r0010" target="EX_m0003" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0010" target="EX_m0004" id="0">
+  <data key="d1">negative</data>
+</edge>
 <edge source="r0011" target="EX_m0006" id="0">
   <data key="d1">positive</data>
 </edge>
 <edge source="r0011" target="EX_m0007" id="0">
   <data key="d1">positive</data>
 </edge>
+<edge source="r0011" target="EX_m0008" id="0">
+  <data key="d1">negative</data>
+</edge>
 <edge source="r0011" target="EX_m0009" id="0">
+  <data key="d1">negative</data>
+</edge>
+<edge source="r0015" target="EX_m0001" id="0">
+  <data key="d1">positive</data>
+</edge>
+<edge source="r0015" target="EX_m0002" id="0">
   <data key="d1">negative</data>
 </edge>
 <edge source="r0015" target="EX_m0003" id="0">
