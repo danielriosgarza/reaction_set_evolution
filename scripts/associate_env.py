@@ -142,7 +142,7 @@ def get_growth_env(model_template, model, reactome, mfs_profile, transporters):
     env_vec = get_flux_vector(transporters, model)
     env_vec = -1*env_vec
     env_vec = np.clip(env_vec, 0,1000)
-    env_vec = env_vec/sol
+    
     if max(env_vec)==0:
         return env_vec
     else:
@@ -213,7 +213,7 @@ def main(family):
     for i in range(1000):
         gc.collect()
         v = fam_mfs.mfs[str(i)][fam_mfs.include_reactome].T
-        used_environment[i] = get_environment_sample(mc, ev.matrix[i], ev.transporters, fam_mfs.reactome[fam_mfs.include_reactome], v, transporter,200)
+        used_environment[i] = get_environment_sample(mc, ev.matrix[i], ev.transporters, fam_mfs.reactome[fam_mfs.include_reactome], v, transporter,1000)
         print(i)  
     
     store = {'used_env':used_environment.copy(), 'model_sample':model_sample.copy(), 'full_freq_m':full_freq_m.copy(), 'reactome':fam_mfs.reactome[fam_mfs.include_reactome], 'transporter':transporter.copy()}

@@ -165,11 +165,25 @@ def main(family, quantile_ass=.99):
     diff_freq_m = full_freq_m-av_freq_m
 
     #filter out noise and find reactions that are driven by the environment
-    m_diff_freq_m = np.max(np.abs(diff_freq_m), axis=0)
+    env_d_score1 = np.round(np.max(diff_freq_m, axis=0),4)
+    env_d_score1 = env_d_score1/max(np.abs(env_d_score1))
+    env_d_score2 = np.round(np.min(diff_freq_m, axis=0),4)
+    env_d_score2 = env_d_score2/max(np.abs(env_d_score2))
+    env_d_score=np.zeros(len(env_d_score1))
+    for i in range(len(env_d_score1)):
+        if abs(env_d_score2[i])>abs(env_d_score1[i]):
+            env_d_score[i] = env_d_score2[i]
+        else:
+            env_d_score[i] = env_d_score1[i]
+
     
-    env_driven_reactome = reactome[m_diff_freq_m>.005]
-    diff_freq_m_envd = diff_freq_m.T[m_diff_freq_m>.005].T
-    reaction_frequency = full_freq_m.T[m_diff_freq_m>.005].T
+    
+    
+    m_diff_freq_m = np.abs(env_d_score)
+    
+    env_driven_reactome = reactome#[m_diff_freq_m>.005]
+    diff_freq_m_envd = diff_freq_m.T#[m_diff_freq_m>.005].T
+    reaction_frequency = full_freq_m.T#[m_diff_freq_m>.005].T
 
     clss_freq_m = np.zeros(diff_freq_m_envd.shape)
     for i,v in enumerate(diff_freq_m_envd):
@@ -182,9 +196,9 @@ def main(family, quantile_ass=.99):
     
     #filter out noise and find metabolites that are driven by the environment
     m_diff_used_env = np.max(np.abs(diff_used_env), axis=0)
-    driving_mets = transporter[m_diff_used_env>0.005]
-    diff_used_env_envd = diff_used_env.T[m_diff_used_env>0.005].T
-    used_env = used_environment.T[m_diff_used_env>0.005].T
+    driving_mets = transporter#[m_diff_used_env>0.005]
+    diff_used_env_envd = diff_used_env.T#[m_diff_used_env>0.005].T
+    used_env = used_environment.T#[m_diff_used_env>0.005].T
     clss_used_env = np.zeros(diff_used_env_envd.shape)
     
     for i,v in enumerate(diff_used_env_envd):

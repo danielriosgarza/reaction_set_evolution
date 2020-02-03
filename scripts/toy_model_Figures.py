@@ -15,6 +15,17 @@ import seaborn as sns
 import scipy.stats as sts
 import matplotlib.pyplot as plt
 
+def get_residual_scores(matrix):
+    n=len(matrix)
+    av_mat = np.round(np.mean(matrix, axis=0)*n)
+    mat = np.round(matrix*n)
+    r1  = (mat - av_mat)
+    score = np.std(r1,axis=0)
+    
+    stand_r1 = np.zeros(r1.shape)
+    
+    return score/max(score)
+
 
 data_folder = os.path.join(Path(os.getcwd()).parents[1], 'data')
 store = pickle.load(open(data_folder + '/pickles/toy_model.pkl', 'rb'))
@@ -31,51 +42,57 @@ s_reaction_freq = np.sum(reaction_freq, axis=1)
 s0_reaction_freq = np.sum(reaction_freq, axis=0)
 sorter_reac = np.argsort(s_reaction_freq)
 sorter_reac = sorter_reac[::-1]
-sorter_reac0 = np.argsort(s0_reaction_freq)
+
 
 used_mets = store['used_environment']
 s_mets = np.sum(used_mets, axis=1)
 s0_mets = np.sum(used_mets, axis=0)
 sorter_mets = np.argsort(s_mets)
 sorter_mets = sorter_mets[::-1]
-sorter_mets0 = np.argsort(s0_mets)
 
 
 
-
-
-#####residual metabolite usage #########
+####Classifying environment_drivers###
 
 residual_met_u = store['diff_used_env']
-sns.heatmap(residual_met_u[sorter_mets].T[sorter_mets0].T, cmap=cm.Reds); 
 
+resid_mets_rank = np.zeros(residual_met_u.shape)
 
-xticks(np.arange(0.5, len(mets)+0.5), reactions[sorter_mets0], rotation=85, fontsize=12)
-yticks([0, 100,208],['208', '100','0'], fontsize=12)
+for i,v in enumerate(residual_met_u):
+    rk = sts.rankdata(np.abs(np.round(v,2)), method='min')-1
+    resid_mets_rank[i] = rk/max(rk)
+    
+unormed_met_score=np.zeros(len(mets))
 
-for i in range(len(mets)):
-    vlines(i,0,208,color='w', lw =.5)
-savefig('/home/daniel/studies/generative_models/git_rep/reaction_set_evolution/files/Figures/Production_Figures/residual_met_u.svg', dpi=600)
-show()
+for i,v in enumerate(resid_mets_rank.T):
+    unormed_met_score[i] = sum(resid_mets_rank.T[i]==1)
+    
+env_driv_met_score = unormed_met_score/len(resid_mets_rank)
+env_driv_met_score = get_residual_scores(used_mets)
+sorter_mets0 = np.argsort(env_driv_met_score)
 
-
-######residual reaction frequencies###
+#####classifying driven reactions ######
 
 residual_reac_f = store['diff_freq_m']
-sns.heatmap(residual_reac_f[sorter_mets].T[sorter_reac0].T, cmap=cm.Blues); 
 
+resid_reac_rank = np.zeros(residual_reac_f.shape)
 
-xticks(np.arange(0.5, len(reactions)+0.5), reactions[sorter_reac0], rotation=85, fontsize=12)
-yticks([0, 100,208],['208', '100','0'], fontsize=12)
+for i,v in enumerate(residual_reac_f):
+    rk = sts.rankdata(np.abs(np.round(v,2)), method='min')-1
+    resid_reac_rank[i] = rk/max(rk)
+    
+unormed_reac_score=np.zeros(len(reactions))
 
-for i in range(15):
-    vlines(i,0,208,color='w', lw =.5)
-savefig('/home/daniel/studies/generative_models/git_rep/reaction_set_evolution/files/Figures/Production_Figures/residual_reaction_f.svg', dpi=600)
-show()
+for i,v in enumerate(resid_reac_rank.T):
+    unormed_reac_score[i] = sum(resid_reac_rank.T[i]==1)
+    
+env_driv_reac_score = unormed_reac_score/len(resid_reac_rank)
 
+env_driv_reac_score = get_residual_scores(reaction_freq)
+sorter_reac0 = np.argsort(env_driv_reac_score)
 
 #####residual metabolite usage #########
-residual_met_u = store['diff_used_env']
+
 sns.heatmap(residual_met_u[sorter_mets].T[sorter_mets0].T, cmap=cm.Reds); 
 
 
@@ -87,6 +104,21 @@ for i in range(len(mets)):
 savefig('/home/daniel/studies/generative_models/git_rep/reaction_set_evolution/files/Figures/Production_Figures/residual_met_u.svg', dpi=600)
 show()
 
+
+
+######residual reaction frequencies###
+
+
+sns.heatmap(residual_reac_f[sorter_mets].T[sorter_reac0].T, cmap=cm.Blues); 
+
+
+xticks(np.arange(0.5, len(reactions)+0.5), reactions[sorter_reac0], rotation=85, fontsize=12)
+yticks([0, 100,208],['208', '100','0'], fontsize=12)
+
+for i in range(15):
+    vlines(i,0,208,color='w', lw =.5)
+savefig('/home/daniel/studies/generative_models/git_rep/reaction_set_evolution/files/Figures/Production_Figures/residual_reaction_f.svg', dpi=600)
+show()
 
 
 
